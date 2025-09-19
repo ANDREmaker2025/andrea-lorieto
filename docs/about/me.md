@@ -1,6 +1,6 @@
 # **ABOUT ME**
 
-<div style="right;">
+<div style="float: right;">
 <img src="../images/ABOUT/andre_about.png">
 </div>
 
