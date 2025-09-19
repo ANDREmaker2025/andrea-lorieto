@@ -1,0 +1,10 @@
+{
+    "editor.allowVariableFontsInAccessibilityMode": true,
+    "editor.columnSelection": true,
+    "git.inputValidation": false,
+    "markdown.validate.enabled": false,
+    "editor.suggest.preview": false,
+    "workbench.editor.enablePreviewFromCodeNavigation": false,
+    "markdown-preview-enhanced.automaticallyShowPreviewOfMarkdownBeingEdited": true,
+    "markdown-preview-enhanced.enableExtendedTableSyntax": false
+}
