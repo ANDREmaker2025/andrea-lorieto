@@ -7,11 +7,14 @@
 
  ![float: right;](../images/ABOUT/andre_about.png) 
 
-<img src="../images/ABOUT/andre_about.png" align="right">
 
 ![](../images/perezoso.jpg)
 ![](../images/perezoso.jpg)
-![](../images/perezoso.jpg) 
+![](../images/perezoso.jpg)
+![](../images/perezoso.jpg)
+![](../images/perezoso.jpg)
+![](../images/perezoso.jpg)
+
 
 # ABOUT ME *
 Hola, hola hola hola hola,  mi nombre es ANDRE... 
