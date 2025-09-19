@@ -1,8 +1,11 @@
 
 ![](../images/perezoso.jpg)
 
-## Bienvenidos* 
-## a mi workspace web
+# Bienvenidos* 
+
+
+# a mi workspace web
+
 Al recorrido de mi experiencia en el posgrado _**Especialización en Fabricación Digital e Innovación.**_
 
 La motivación principal como integrante de este posgrado, es expandir mis líneas de interés enmarcadas en la formación e investigación en diseño, a partir de la investigación-acción y prácticas de intercambio interdisciplinarias, con énfasis en el campo de la innovación, desarrollo del diseño en la cultura material, y el desarrollo conceptual de herramientas prácticas proyectuales. 
