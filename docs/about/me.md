@@ -7,6 +7,7 @@
 
  ![](../images/ABOUT/andre_about.png)
 
+<img src="../images/ABOUT/andre_about.png" alt="Descripción de la imagen" align="right">
 
 # ABOUT ME *
 Hola, hola hola hola hola,  mi nombre es ANDRE... 
