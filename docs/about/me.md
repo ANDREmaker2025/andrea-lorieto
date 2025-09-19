@@ -1,9 +1,11 @@
 # **ABOUT ME**
 
-<div style="text-align: right;">
-
-![Mi Imagen al Extremo Derecho](../images/ABOUT/andre_about.png)
+<div style="right;">
+<img src="../images/ABOUT/andre_about.png">
 </div>
+
+![](../images/ABOUT/andre_about.png)
+
 
 Hola mi nombre es ANDREA 1
 Hola 
