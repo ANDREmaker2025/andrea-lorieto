@@ -5,7 +5,7 @@
 ![](../images/perezoso.jpg)
 ![](../images/perezoso.jpg)
 
-# ***Bienvenidos* a mi workspace web!**
+# *Bienvenidos** a mi workspace web!
 Al recorrido de mi experiencia en el posgrado,   
 _**Especialización en Fabricación Digital e Innovación**_ . _UTEC & FAB LAB BARCELONA_
 
