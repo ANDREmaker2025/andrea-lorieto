@@ -1,4 +1,4 @@
-# ABOUT ME
+# **ABOUT ME**
 
 ![](../images/about/andre_about.png)
 
