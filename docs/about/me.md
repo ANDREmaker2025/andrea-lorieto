@@ -5,7 +5,7 @@
 ![](../images/perezoso.jpg)
 ![](../images/perezoso.jpg)
 
- ![float: right;](../images/ABOUT/andre_about.png) 
+![](../images/ABOUT/andre_about.png) 
 
 
 ![](../images/perezoso.jpg)
