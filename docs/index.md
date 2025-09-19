@@ -1,5 +1,13 @@
-## Welcome
 
 ![](../images/perezoso.jpg)
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+## Bienvenidos* 
+## a mi workspace web
+Al recorrido de mi experiencia en el posgrado _**Especialización en Fabricación Digital e Innovación.**_
+
+La motivación principal como integrante de este posgrado, es expandir mis líneas de interés enmarcadas en la formación e investigación en diseño, a partir de la investigación-acción y prácticas de intercambio interdisciplinarias, con énfasis en el campo de la innovación, desarrollo del diseño en la cultura material, y el desarrollo conceptual de herramientas prácticas proyectuales. 
+
+Me interesa involucrarme en este campo de estudio sobre la fabricación digital tecnológica con foco en la innovación y sostenibilidad, ya que en términos generales tiene estrecha relevancia con la "producción humana".  
+
+Actualmente en la era virtual de los nuevos lenguajes digitales, combinar nuevas formas de tecnología informática aplicadas al ámbito profesional y la docencia, incide inevitablemente en el hacer creativo desafiando la investigación activa. Dar cabida a esta dimensión actual del "hacer" integrando al "saber", la innovación digital sustentable ampliando mis capacidades y alcances de aprendizaje proyectual.
+
