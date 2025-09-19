@@ -1,12 +1,12 @@
 
-<div style="float: right;">
 
 ![](../images/ABOUT/andre_about.png)
 
-</div>
+<div style="float: right;">
 
-**ABOUT ME**
-# ABOUT ME *
+
+
+# <font size="3"> ABOUT ME * </font>
 Hola, hola hola hola hola,  mi nombre es ANDRE... 
 Hola, hola hola hola hola,  mi nombre es ANDRE... 
 Hola, hola hola hola hola,  mi nombre es ANDRE... 
