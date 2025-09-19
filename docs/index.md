@@ -1,6 +1,8 @@
 
-
-
+![](../images/perezoso.jpg)
+![](../images/perezoso.jpg)
+![](../images/perezoso.jpg)
+![](../images/perezoso.jpg)
 ![](../images/perezoso.jpg)
 
 # ***Bienvenidos* a mi workspace web!**
