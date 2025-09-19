@@ -1,6 +1,6 @@
 # **ABOUT ME**
 
-![](../images/about/andre_about.png)
+![](../images/ABOUT/andre_about.png)
 
 Hola mi nombre es ANDREA 1
 Hola 
