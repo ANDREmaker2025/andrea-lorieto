@@ -7,7 +7,7 @@
 
  ![](../images/ABOUT/andre_about.png)
 
-**ABOUT ME** 
+
 # ABOUT ME *
 Hola, hola hola hola hola,  mi nombre es ANDRE... 
 Hola, hola hola hola hola,  mi nombre es ANDRE... 
