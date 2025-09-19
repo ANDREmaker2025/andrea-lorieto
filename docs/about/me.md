@@ -5,9 +5,13 @@
 ![](../images/perezoso.jpg)
 ![](../images/perezoso.jpg)
 
- ![](../images/ABOUT/andre_about.png)
+ ![float: right;](../images/ABOUT/andre_about.png) 
 
-<img src="../images/ABOUT/andre_about.png" alt="Descripción de la imagen" align="right">
+<img src="../images/ABOUT/andre_about.png" align="right">
+
+![](../images/perezoso.jpg)
+![](../images/perezoso.jpg)
+![](../images/perezoso.jpg) 
 
 # ABOUT ME *
 Hola, hola hola hola hola,  mi nombre es ANDRE... 
