@@ -2,7 +2,6 @@
 
 <div style="float: right;">
 <img src="../images/ABOUT/andre_about.png">
-</div>
 
 ![](../images/ABOUT/andre_about.png)
 
