@@ -5,8 +5,9 @@
 <div style="float: right;">
 
 
+<font size="2"> **ABOUT ME** </font>
 
-# <font size="3"> ABOUT ME * </font>
+# ABOUT ME *
 Hola, hola hola hola hola,  mi nombre es ANDRE... 
 Hola, hola hola hola hola,  mi nombre es ANDRE... 
 Hola, hola hola hola hola,  mi nombre es ANDRE... 
