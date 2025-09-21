@@ -17,7 +17,7 @@
 ![](../images/perezoso.jpg)
 
 
-# **ANDRE***_LORIETO
+# **ANDRE***.LORIETO
 
 Diseñadora industrial, visual y docente universitaria. A lo largo de mi formación profesional he desarrollado habilidades sólidas en el campo del diseño. Apasionada en cada tarea que afronto. Tengo un espíritu entusiasta y activo, que disfruta de investigar, experimentar e innovar en la resolución de problemas y proyectos interdisciplinarios. 
 Mi curiosidad me impulsa a ir más allá de lo evidente, con un enfoque diferente de las situaciones buscando soluciones creativas a los problemas. Me identifico con la cultura "lifelong learner", disfruto del aprendizaje continuo y activo "hand on", a través del conocimiento compartido y potenciado en ámbitos colaborativos y de sinergía del trabajo en equipo. Me motivan los desafíos aportándoles creatividad y realismo, logrando así alimentar mi capacidad de asombro. Podría decir que no me doy por vencida fácilmente. 
