@@ -6,7 +6,7 @@
 ![](../images/perezoso.jpg)
 
 
-![](../images/ABOUT/andre_about.png) 
+![](../images/ABOUT/aboutandre.png) 
 
 
 ![](../images/perezoso.jpg)
