@@ -621,15 +621,16 @@ Bajo el objetivo de consigna <strong><em>&lsquo;Comunicación entre dispositivos
 <img alt="" src="../images/MT01/.png" /> </p>
 <p><code>2) Abrir Boards Manager &gt; Ir a: Tools → Board → Boards Manager</code></p>
 <p><img alt="" src="../../images/MT06/MT6_esp32_rutaDevice.png" />
-<img alt="" src="../images/MT01/.png" /> </p>
-<p>__</p>
+<img alt="" src="../images/MT01/.png" /> 
+<img alt="" src="../images/MT01.png" /></p>
 <h4 id="dinamica-1-arduino-esp32-serial-uart-sketch-1">DINÁMICA 1 . Arduino ESP32 ~ Serial UART . <em>sketch 1</em><a class="headerlink" href="#dinamica-1-arduino-esp32-serial-uart-sketch-1" title="Permanent link">&para;</a></h4>
 <p><img alt="" src="../images/MT01/.png" /> 
 <strong>OBJETIVO</strong>
 <em>Implementar una comunicación <strong>Serial UART entre dos ESP32</strong>:</em>
 - <em>ESP32 A - EMISOR (UART) : cuando el usuario aprieta un botón, envía un mensaje por UART.</em>
 - <em>ESP32 B RECEPTOR (UART) : recibe el mensaje por UART y prende/apaga un LED según el comando recibido.</em></p>
-<p><strong>CONEXIONES . #1</strong></p>
+<p><img alt="" src="../images/MT01.png" />
+<strong>CONEXIONES . #1</strong></p>
 <p><img alt="" src="../../images/MT06/MT6_E1_esp32A_emisor.png" /></p>
 <p><img alt="" src="../../images/MT06/MT6_E1_esp32B_receptor.png" /></p>
 <p>Armamos el <strong>circuito ESP32 #1</strong> vinculando el microcontrolador ESP32 en conexión USB con la PC/Software al 
@@ -639,12 +640,14 @@ Bajo el objetivo de consigna <strong><em>&lsquo;Comunicación entre dispositivos
 <a href="[https://](https://drive.google.com/file/d/1GAydsQ3LZKZzK2P6FtbNLVRa-y8HHwwn/view?usp=share_link)"> + info ~ <em>[ Introducción a Networking ~ pág 1-2 ]</em></a></p>
 <p><img alt="" src="../../images/MT06/MT6_E1_esp32_A%2BB_LATU.gif" />
 <a href="https://drive.google.com/file/d/1ZnSnKseEqlPLL6TSI0uTwzEuMqSi9MOy/view?usp=share_link">🎬 <em>LINK DEMO ~ CIRCUITO ESP32 1_LATU_MT06</em> </a></p>
-<p><code>Emisor: https://pastebin.com/1ue5XRCQ</code>
+<p><img alt="" src="../images/MT01.png" />
+<strong>CÓDIGO . #1</strong>
+<code>Emisor: https://pastebin.com/1ue5XRCQ</code>
 <code>Receptor: https://pastebin.com/3FQbShiS</code></p>
 <p>Configuramos <a href="https://docs.arduino.cc/software/ide-v2/tutorials/ide-v2-serial-monitor/">(Serial Monitor)</a> su código de programación en correspondencia con las conexiones físicas establecidas. Si ambos, [circuito físico + código programación digital] se corresponden, el circuito se activa encendiéndose, de lo contrario, no. Una vez sincronizados y funcionales, <code>[Verify Code “✓” + Compiling Code "→"] + Upload sketch, finalmente guardamos el archivo de código programado.</code></p>
 <p><img alt="" src="../../images/MT06/MT6_E1_emi-receptor_code.png" />
 <img alt="" src="../images/MT01/.png" /> 
-__</p>
+<img alt="" src="../images/MT01.png" /></p>
 <h4 id="dinamica-2-arduino-esp32-wifi-http-get-sketch-2">DINÁMICA 2 . Arduino ESP32 ~ WiFi + HTTP GET . <em>sketch 2</em><a class="headerlink" href="#dinamica-2-arduino-esp32-wifi-http-get-sketch-2" title="Permanent link">&para;</a></h4>
 <p><img alt="" src="../images/MT01/.png" /> 
 <strong>OBJETIVO</strong></p>
@@ -652,21 +655,25 @@ __</p>
 - <em>Se conecte a una red WiFi.</em>
 - <em>Haga una petición HTTP GET a una página web simple.</em>
 - <em>Muestre en el Serial Monitor: Si se conectó correctamente + La IP asignada + El código HTTP de respuesta + Los primeros caracteres del contenido recibido</em></p>
-<p><strong>CONEXIONES . #2</strong></p>
+<p><img alt="" src="../images/MT01.png" />
+<strong>CONEXIONES . #2</strong></p>
 <p>Armamos el circuito ESP32 #2 vinculando el microcontrolador ESP32 en conexión USB con la PC/Software al <a href="https://https://docs.arduino.cc/software/ide-v2/tutorials/ide-v2-serial-monitor/">EDITOR Arduino IDE + MonitorSerialTool</a> (integrado).</p>
 <p><img alt="" src="../images/MT06/MT6_E1_esp32B_receptor." /></p>
-<p><strong>CÓDIGO . #2</strong></p>
+<p><img alt="" src="../images/MT01.png" />
+<strong>CÓDIGO . #2</strong></p>
 <p><code>Solución: https://wokwi.com/projects/455582534712036353</code></p>
 <p>Configuramos <a href="https://docs.arduino.cc/software/ide-v2/tutorials/ide-v2-serial-monitor/">(Serial Monitor)</a> su código de programación en correspondencia con las conexiones físicas establecidas. Si ambos, [circuito físico + código programación digital] se corresponden, el circuito se activa encendiéndose, de lo contrario, no. Una vez sincronizados y funcionales, <code>[Verify Code “✓” + Compiling Code "→"] + Upload sketch, finalmente guardamos el archivo de código programado.</code></p>
 <p><img alt="" src="../../images/MT06/MT6_E2_upload-compiling_WIFI.png" />
 <img alt="" src="../images/MT01/.png" /> </p>
 <h4 id="dinamica-3-arduino-esp32-wifi-dht22-mqtt-sketch-3">DINÁMICA 3 . Arduino ESP32 ~ WiFi + DHT22 + MQTT . <em>sketch 3</em><a class="headerlink" href="#dinamica-3-arduino-esp32-wifi-dht22-mqtt-sketch-3" title="Permanent link">&para;</a></h4>
+<p><img alt="" src="../images/MT01.png" /></p>
 <p><strong>OBJETIVO</strong></p>
 <p><em>Programar un ESP32 para que:</em>
 - <em>Se conecte a una red WiFi</em>
 - <em>Se conecte a un broker MQTT público</em>
 - <em>Lea temperatura y humedad desde un sensor DHT22</em>
-- <em>Publique periódicamente (configurable) un mensaje JSON en un topic con formato:</em> <code>mat_utec/&lt;pais&gt;/&lt;zona&gt; + Ejemplo: mat_utec/uy/atlantida</code></p>
+- <em>Publique periódicamente (configurable) un mensaje JSON en un topic con formato:</em> <code>mat_utec/&lt;pais&gt;/&lt;zona&gt; + Ejemplo: mat_utec/uy/atlantida</code>
+<img alt="" src="../images/MT01.png" /></p>
 <p><strong>CONEXIONES . #3</strong></p>
 <blockquote>
 <p><code>SENSOR DHT22 (temp/hum) → Esp32 :</code> 
@@ -687,7 +694,8 @@ Utiliza un protocolo de comunicación de un solo hilo (1-Wire) para enviar los v
 <p>GND conexión: al <strong>pin negativo o tierra (-)</strong>. </p>
 </li>
 </ul>
-<p>Armamos el <strong>circuito ESP32 #2</strong> y lo vinculamos en conexión USB con la PC/Software al <a href="https://https://docs.arduino.cc/software/ide-v2/tutorials/ide-v2-serial-monitor/">EDITOR Arduino IDE + MonitorSerialTool</a> (integrado), configuramos allí su código de programación en correspondencia con las conexiones físicas establecidas. Si ambos, [circuito físico + código programación digital] se corresponden, el circuito se activa encendiéndose, de lo contrario, no. Una vez sincronizados y funcionales,<code>[Verify Code “✓” + Compiling Code "→"] + Upload sketch, finalmente guardamos el archivo de código programado.</code></p>
+<p>Armamos el <strong>circuito ESP32 #2</strong> y lo vinculamos en conexión USB con la PC/Software al <a href="https://https://docs.arduino.cc/software/ide-v2/tutorials/ide-v2-serial-monitor/">EDITOR Arduino IDE + MonitorSerialTool</a> (integrado), configuramos allí su código de programación en correspondencia con las conexiones físicas establecidas. Si ambos, [circuito físico + código programación digital] se corresponden, el circuito se activa encendiéndose, de lo contrario, no. Una vez sincronizados y funcionales,<code>[Verify Code “✓” + Compiling Code "→"] + Upload sketch, finalmente guardamos el archivo de código programado.</code>
+<img alt="" src="../images/MT01.png" /></p>
 <p><strong>CÓDIGO . #3</strong></p>
 <p><code>Solución: https://wokwi.com/projects/455570934245246977</code></p>
 <p><img alt="" src="../../images/MT06/MT6_E3_esp32_wokwi_code.png" /></p>
@@ -697,15 +705,14 @@ Utiliza un protocolo de comunicación de un solo hilo (1-Wire) para enviar los v
 <code>const char* ssid = "TUREDWIFI";</code>
 <code>const char* password = "TUPW"</code></p>
 </blockquote>
-<p>Indicamos/cambiamos en el codeline los datos geográficos a georeferenciar, 
-para la lectura sensorial de las variables temperatura y humedad:</p>
+<p>Indicamos/cambiamos en el codeline los datos geográficos a georeferenciar, para la lectura sensorial de las <strong>variables temperatura y humedad</strong>:</p>
 <blockquote>
 <p><code>// Definí tu ubicación</code>
 <code>const char* PAIS = "uy";</code>
 <code>const char* ZONA = "Maldonado/barra"; // ciudad/zona</code></p>
 </blockquote>
 <p><img alt="" src="../../images/MT06/MT6_E3_esp32_sensorHUMTEMP_arduino-runaction2_LATU.png" /></p>
-<p>Una vez efectivizada en <em>ArduinoMonitorSerial</em> la conexión remota remota entre el EPS32 y el WIFI, se envía el <em>mensaje de dato JSON</em>, publicándose sincrónicamente en la interfase visual/pantalla (o periódicamente, según se configure).</p>
+<p>Una vez efectivizada en <em>ArduinoMonitorSerial</em> la conexión remota entre el EPS32 y el WIFI, se envía el <em>mensaje de dato JSON</em>, publicándose sincrónicamente en la interfase visual/pantalla (o periódicamente, según se configure).</p>
 <p><img alt="" src="../../images/MT06/MT6_E3_esp32_sensor_wifi%26arduino-runaction_LATU.gif" /></p>
 <p><a href="https://drive.google.com/file/d/1m4OxKNEYOo3fmS0jOPOst37lyH9-p7zr/view?usp=share_link">🎬 LINK DEMO ~ ESP32 3_ARDUINORUN ACTION - SENSORHUM_LATU_MT06</a>
 <a href="https://drive.google.com/file/d/1GHLS7MPzq7fhE-GlnlWkURz2j_WocznZ/view?usp=share_link">🎬 LINK DEMO ~ ESP32 3_SENSORHUM_LATU_MT06</a></p>
@@ -719,7 +726,7 @@ para la lectura sensorial de las variables temperatura y humedad:</p>
 <code>#include &lt;DHTesp.h&gt;</code>, </p>
 </blockquote>
 <p>Indicadas al inicio del código relevado de internet, (si el programa nos da un error de compilación (letras rojas) diciendo <em>&ldquo;No such file or directory&rdquo;</em>, significa que esa biblioteca no está instalada en mi computadora). <code>menú: [LIBRARY MANAGER → PubSubClient + DHTesp</code></p>
-<p>La instalación de este <strong><em>Library plugin</em></strong> son &lsquo;paquetes de herramientas&rsquo; externos al Arduino IDE (que no vienen incluido por defecto), y su utilidad permite <strong>ahorrar tiempo</strong> (evitando tener que escribir lineas de código desde cero), <strong>simplificar</strong> (en lugar de programar la comunicación bit por bit, solo usamos comandos sencillos como lectura.getTemperature), <strong>compatibilidad</strong> nos aseguramos que nuestra placa (ESP32, Arduino Nano, etc.) sepa interpretar correctamente los datos del hardware externo.</p>
+<p>La instalación de este <strong><em>Library plugin</em></strong> son &lsquo;paquetes de herramientas&rsquo; externos al Arduino IDE (que no vienen incluido por defecto), y su utilidad permite <strong>ahorrar tiempo</strong> (evitando tener que escribir lineas de código desde cero), <strong>simplificar</strong> (en lugar de programar la comunicación bit por bit, solo usamos comandos sencillos como <code>_lectura.getTemperature_</code>), <strong>compatibilidad</strong> nos aseguramos que nuestra placa (ESP32, Arduino Nano, etc.) sepa interpretar correctamente los datos del hardware externo.</p>
 <p><img alt="" src="../../images/MT06/MT6_E3_library.png" />
 <img alt="" src="../images/MT01.png" />
 <img alt="" src="../images/MT01.png" /></p>
@@ -754,7 +761,7 @@ para la lectura sensorial de las variables temperatura y humedad:</p>
 <div class="md-source-date">
   <small>
     
-      Last update: <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date" title="February 18, 2026 21:39:56 UTC">February 18, 2026</span>
+      Last update: <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date" title="February 18, 2026 21:49:29 UTC">February 18, 2026</span>
     
   </small>
 </div>
