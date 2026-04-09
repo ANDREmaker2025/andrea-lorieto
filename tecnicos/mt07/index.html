@@ -692,7 +692,7 @@
 </a></p>
 <h2 id="herramientas-practicas-aplicadas-mt07"><strong>HERRAMIENTAS PRÁCTICAS APLICADAS</strong> . MT07<a class="headerlink" href="#herramientas-practicas-aplicadas-mt07" title="Permanent link">&para;</a></h2>
 <h2 id="interfaces-applications-latu">INTERFACES &amp; APPLICATIONS ~ <em>LATU</em><a class="headerlink" href="#interfaces-applications-latu" title="Permanent link">&para;</a></h2>
-<p>En este marco, la práctica presencial en el LATU-UTEC constó de una breve sesión técnica de ensayos experimentales sencillos y analogías cotidianas, a través de una dinámica bajo la <a href="https://drive.google.com/file/d/1UVqSTpPKvaKCQJ8AX5mBLDexHagAnqTs/view?usp=share_link">consigna/objetivo</a> siguiente: </p>
+<p>En este marco, la práctica presencial en el LATU-UTEC constó de una breve sesión técnica de ensayos experimentales sencillos y analogías cotidianas, a través de una dinámica bajo la <a href="https://drive.google.com/file/d/1eX8Km33iMBBomt5oW5LipNYb0raxE06_/view?usp=share_link"> CONSIGNAS </a> siguientes: </p>
 <p><em>❝ Diseñar e implementar una <strong><em>interfaz de control</em></strong> (software) para operar uno o más <strong><em>actuadores</em></strong> (hardware) conectados al <strong><em>ESP32</em></strong>. Cada equipo podrá elegir libremente qué actuador utilizar, por ejemplo: <strong><em>LED, servo, buzzer, relé, motor</em></strong> u otro similar trabajado en clase.❞</em></p>
 <h3 id="dinamica-1-esp32-interfaz-uso-blynk-arduino-esp32-connectivity-sketch-1">DINÁMICA 1 . <strong>ESP32 ~ INTERFAZ USO ~ BLYNK</strong> . Arduino ESP32 Connectivity . sketch 1<a class="headerlink" href="#dinamica-1-esp32-interfaz-uso-blynk-arduino-esp32-connectivity-sketch-1" title="Permanent link">&para;</a></h3>
 <p><strong>OBJETIVO</strong>
@@ -789,6 +789,9 @@ La propuesta debe permitir que el usuario pueda enviar acciones o cambios de est
 Configurar la conectividad WiFi del sistema electrónico para activar el (paso 4), Web Server WiFi y la comunicación efectiva del flujo de datos (entre Software y Hardware), en el código (<em>Firmware y Web</em>), las credenciales (id. user + password) para mi red local. </p>
 <p><img alt="" src="../../images/MT07/MT07_ej2_Gem_paso3.png" />
 <a href="[https://](https://gemini.google.com/u/2/app/6f9c541196f5c5fa?utm_source=app_launcher&amp;utm_medium=owned&amp;utm_campaign=base_all&amp;pageId=none)"> <em>+ info CODE + WiFi ~ ESP32 - DHT - WEBSERVER Connectivity</em> </a></p>
+<p><img alt="" src="../../images/MT07/MT07_ej2_Gem_paso3_Compil%2BUpload.png" />
+<img alt="" src="../../images/MT07/MT07_ej2_Gem_paso3_Connect_IP.png" />
+[ Figs.: Compiling + Uploading Sketch + Connected WiFi - IP ] </p>
 <p><strong>PASO 4</strong> ~ GRAPHICAL UI DISPLAY &amp; Web Server - WiFi . (Software/Frontend + Backend)</p>
 <p>Activar Web Server WiFi (a través de la IP generada) para el sistema del circuito electrónico, vinculando sus componentes; Software-Backend [ Code arduino IDE + Red WiFi ] + Hardware [ ESP32 + DHT + PC ], para la visualización de la Interfaz Visual de Usuario (UI-Frontend).</p>
 <p>Para visualizar la <strong>interfaz gráfica</strong> de usuario <strong>(UI Visual/Canvas - Frontend)</strong>, es decir el resultado visual de instrucciones (código/Script - Backend) que genera el microcontrolador ESP32, el dispositivo, &ldquo;se convierte en un mini servidor&rdquo; de internet (Web Server) privado dentro de &ldquo;casa” a través del cual veremos la interfaz con el flujo de datos de temp. y hum. actualizados en tiempo real. Entonces, el ESP32 que actúa como un Webservidor que envía código (web) HTML al navegador, habilita el siguiente flujo de datos:</p>
@@ -805,18 +808,36 @@ Configurar la conectividad WiFi del sistema electrónico para activar el (paso 4
 <p><strong>PASO 5</strong> ~ GRAPHICAL UI DISPLAY INTERACTION (Software/Frontend)</p>
 <p>Ahora que la lógica &ldquo;backend&rdquo; (la comunicación de red y la lectura del sensor) funciona a la perfección, podemos enfocarnos 100% en el &ldquo;frontend&rdquo; (la interfaz que ve e interactúa el usuario).
 Explorando distintas versiones de Código y sus variables de instrucciones (script/Backend)para enriquecer el Canvas Visual  (UI &ldquo;Frontend”), identifiqué dos versiones de INTERFAZ GRÁFICA DE USO posibles:  <code>1.INTERFAZ GRÁFICA (HTML + CSS + JS NATIVO Y OFFLINE) y 2.INTERFAZ GRÁFICA (HTML + CSS + JS CON HIGHCHARTS).</code></p>
-<p><strong>1. // &mdash; INTERFAZ GRÁFICA (HTML + CSS + JS NATIVO Y OFFLINE) —</strong></p>
+<p><strong>1. // &mdash; INTERFAZ GRÁFICA (HTML + CSS + JS NATIVO Y OFFLINE) —&ndash;</strong></p>
 <p><img alt="" src="../../images/MT07/MT07_UI-Offline1.png" /></p>
 <p><strong>UI VERSIÓN NATIVA/OFFLINE</strong>: En este caso, modifiqué (por partes) algunas variables que necesitaba para enriquecer el código e ir entendiendo cómo se comunican las distintas partes del programa de código de instrucciones (el &ldquo;Front-end&rdquo; o diseño, y el &ldquo;Back-end&rdquo; o cerebro) y así obtuve <strong>distintas variantes de UI enriquecidas</strong>:</p>
-<p><strong>A . UI enriquecida básica</strong> (offline): Apliqué un cambio visual de estilo tipo &ldquo;Dark Mode&rdquo; con cajas de sombras, diseño adaptable (responsive) a otros formatos de dispositivos (ej. Mobile).</p>
-<p><img alt="" src="../../images/MT07/MT07_UI-Offline1.png" /></p>
-<p><strong>CÓDIGO</strong> NUEVO ~ INTERFAZ A</p>
+<p><strong>A . UI enriquecida básica</strong> (offline): Apliqué un cambio visual de estilo tipo &ldquo;Dark Mode&rdquo; con cajas de sombras, diseño adaptable (responsive) a otros formatos de dispositivos (ej. Mobile).
+<img alt="" src="../../images/MT07/MT07_Gem_p5_IPwebserver_basic2.png" /></p>
+<p><strong>CÓDIGO</strong> NUEVO ~ INTERFAZ Web A
+<img alt="" src="../../images/MT07/MT07_Gem_p4_WScode_rica.png" /></p>
 <p><strong>B. UI enriquecida interactiva</strong> (offline): En este caso para hacer la interfaz más interactiva, añadí gráficas en tiempo real que dibujaran el historial reciente de temperatura y humedad, aplicando un cambio visual de estilo tipo &ldquo;Dark Mode&rdquo;. Este resultado de interfaz interactiva es una fusión entre ambas versiones básicas combinando entre sí distintos componentes variables de interés de ambos códigos.
-<img alt="" src="../images/MT07/MT07_Gem_p4_webserver_rica.png" /></p>
-<p><strong>CÓDIGO</strong> NUEVO ~ INTERFAZ B 
+<img alt="" src="../../images/MT07/MT07_Gem_p5_IPwebserver_rica3.png" />
 <img alt="" src="../../images/MT07/MT07_Gem_p4_webserver_rica.gif" /></p>
 <p><strong>CONEXIÓN</strong> ~ <strong>Hardware + WebServer</strong> para última versión de interfaz enriquecida.
 <img alt="" src="../../images/MT07/MT07_Gem_p4_hardware.gif" /></p>
+<p><strong>CÓDIGO</strong> NUEVO ~ INTERFAZ Web B 
+<img alt="" src="../../images/MT07/MT07_UI-Offline2.png" /></p>
+<p><strong>Componentes del código redefinidos para UI (interfaz B):</strong></p>
+<p><strong>UI_1 ~ Code Canvas:</strong>
+Agregué Gráficas ilustrativas que expresen de forma dinámica el flujo de datos variable Temp/Hum. La inclusión y funcionamiento de los gráficos se divide exactamente en tres bloques clave. 
+<img alt="" src="../../images/MT07/MT07_Gem_p5_UI1.png" /></p>
+<p><strong>UI_2 ~ Code Botón interactivo:</strong> 
+Agregué botón interactivo (Tarjeta control LED) + la función clic que envía la orden al ESP32 al hacer clic en botón on/off luz led azul integrado en la ESP32.
+Agregar el &ldquo;Cerebro&rdquo; del botón al ESP32 &gt;  LED PIN Sensor: definición + configuración + ruta web recepción clic LED on/off. 
+<img alt="" src="../../images/MT07/MT07_Gem_p5_UI2.png" /></p>
+<p><strong>UI_3 ~ Code Iteración flujo de datos Hum/Temp:</strong> 
+Cambié la solicitud de flujo de datos, variando la velocidad de consultas de flujo de datos de TEMP y HUM de 2000 a 2500, para que las gráficas visualicen con agilidad el flujo de datos variable.
+<img alt="" src="../../images/MT07/MT07_Gem_p5_WScode_rica_UI3.png" /></p>
+<p><strong>2.// &mdash; INTERFAZ GRÁFICA (HTML + CSS + JS CON HIGHCHARTS) &mdash;</strong></p>
+<p><strong>UI VERSIÓN HIGHCHARTS</strong>: En este caso para hacer la interfaz más avanzada, para las gráficas se podría usar una <strong><em>librería Highcharts</em></strong>, gratuita profesional externa al ESP32 (el código no está guardado dentro de la memoria del ES32). En la versión Highcharts la librería es muy potente y ofrece un paquete de código inmenso, pesado y muy avanzado creado por otra empresa. Cómo es demasiado grande para guardarlo cómodamente dentro de la pequeña memoria del ESP32, ese código &ldquo;vive&rdquo; en servidores en Internet. <a href="[https://](https://www.highcharts.com/)"><em>+ info [ Librería JavaScript HIGHCHARTS ]</em></a></p>
+<p><img alt="" src="../../images/MT07/MT07_UI-HighChart1.png" /></p>
+<p><strong>CÓDIGO NUEVO</strong> ~ INTERFAZ Web C HIGHCHARTS
+<img alt="" src="../../images/MT07/MT07_UI-HighChart2.png" /></p>
                 
                   
                     
@@ -825,7 +846,7 @@ Explorando distintas versiones de Código y sus variables de instrucciones (scri
 <div class="md-source-date">
   <small>
     
-      Last update: <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date" title="April 9, 2026 20:05:10 UTC">April 9, 2026</span>
+      Last update: <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date" title="April 9, 2026 22:26:47 UTC">April 9, 2026</span>
     
   </small>
 </div>
