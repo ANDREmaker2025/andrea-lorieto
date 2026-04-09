@@ -682,7 +682,7 @@
 <hr />
 <p>Este <strong><em>Módulo Técnico 07</em></strong> enmarcado en la fabricación digital nos introdujo en las <strong><em>Interfases y aplicaciones en el contexto de los microcontroladores electrónicos</em></strong>, para el IoT (Internet de las Cosas). Con el objetivo de comprender la utilidad y funcionamiento básica de una <strong>interfaz electrónica</strong>, como un sistema que facilita la <strong>comunicación (ver estados/variables) e interacción (ejecutar acciones) entre diferentes dispositivos electrónicos en la transmisión de señales de datos</strong>. Frente a un área ajena a mi formación (la ingeniería electrónica), me desafié un paso más, intentando profundizar en el tema, y a partir de lectura/literatura afín, (e infinidad de dudas liberadas a través de consultas y razonamiento conjunto con la IA), desarrollé este esquema sintético para comprender la configuración de la UI + UX en el ECOSISTEMA ELECTRÓNICO ~ ESP32: </p>
 <p><img alt="" src="../images/MT01/.png" /> </p>
-<p><em>❝La interfaz no es un objeto sino un proceso, el lugar de la interacción. No es un simple adorno (&hellip;) que se añade al final para que el hardware sea más bonito; es el dispositivo de interacción que vincula a los actores humanos y tecnológicos ❞.</em> <em>[ Carlos A. Scolari . Universitat Pompeu Fabra . Barcelona ]</em>
+<p><em>❝ La interfaz no es un objeto sino un proceso, el lugar de la interacción. No es un simple adorno (&hellip;) que se añade al final para que el hardware sea más bonito; es el dispositivo de interacción que vincula a los actores humanos y tecnológicos ❞.</em> <em>[ Carlos A. Scolari . Universitat Pompeu Fabra . Barcelona ]</em>
 <img alt="" src="../images/MT01/.png" /> </p>
 <p><img alt="" src="../../images/MT07/MT07_ecosistem_ESP32.png" /></p>
 <p><strong>ECOSISTEMA ELECTRÓNICO BASADO EN ESP32</strong>:  Un ecosistema basado en ESP32 se compone de hardware (el chip ESP32, sensores, actuadores y PCB) y software (firmware, IDEs y protocolos). El hardware maneja la lógica física y conectividad RF, mientras el software gestiona la ejecución de tareas, Wi-Fi/Bluetooth y la interacción del usuario. En la <strong>interacción entre el Hardware y Software</strong>: El código creado en el IDE (Software) se compila y carga en la memoria del módulo ESP32 (Hardware). Este software utiliza las librerías para controlar en los microcontroladores los pines físicos GPIOs (Hardware), enviando datos a través de Wi-Fi a Webs Servers y plataforma-backend/frontend (como, Blynk IoT, Node-RED (Dashboards), etc). <em>[ VER LINKS DE INTERÉS ~ pie pág.]</em>
@@ -693,7 +693,7 @@
 <h2 id="herramientas-practicas-aplicadas-mt07"><strong>HERRAMIENTAS PRÁCTICAS APLICADAS</strong> . MT07<a class="headerlink" href="#herramientas-practicas-aplicadas-mt07" title="Permanent link">&para;</a></h2>
 <h2 id="interfaces-applications-latu">INTERFACES &amp; APPLICATIONS ~ <em>LATU</em><a class="headerlink" href="#interfaces-applications-latu" title="Permanent link">&para;</a></h2>
 <p>En este marco, la práctica presencial en el LATU-UTEC constó de una breve sesión técnica de ensayos experimentales sencillos y analogías cotidianas, a través de una dinámica bajo la <a href="https://drive.google.com/file/d/1UVqSTpPKvaKCQJ8AX5mBLDexHagAnqTs/view?usp=share_link">consigna/objetivo</a> siguiente: </p>
-<p><em>❝Diseñar e implementar una <strong><em>interfaz de control</em></strong> (software) para operar uno o más <strong><em>actuadores</em></strong> (hardware) conectados al <strong><em>ESP32</em></strong>. Cada equipo podrá elegir libremente qué actuador utilizar, por ejemplo: <strong><em>LED, servo, buzzer, relé, motor</em></strong> u otro similar trabajado en clase.❞</em></p>
+<p><em>❝ Diseñar e implementar una <strong><em>interfaz de control</em></strong> (software) para operar uno o más <strong><em>actuadores</em></strong> (hardware) conectados al <strong><em>ESP32</em></strong>. Cada equipo podrá elegir libremente qué actuador utilizar, por ejemplo: <strong><em>LED, servo, buzzer, relé, motor</em></strong> u otro similar trabajado en clase.❞</em></p>
 <h3 id="dinamica-1-esp32-interfaz-uso-blynk-arduino-esp32-connectivity-sketch-1">DINÁMICA 1 . <strong>ESP32 ~ INTERFAZ USO ~ BLYNK</strong> . Arduino ESP32 Connectivity . sketch 1<a class="headerlink" href="#dinamica-1-esp32-interfaz-uso-blynk-arduino-esp32-connectivity-sketch-1" title="Permanent link">&para;</a></h3>
 <p><strong>OBJETIVO</strong>
 La dinámica 1 se focalizó en montaje de una <strong>INTERFAZ DE USO (UI) a través de la &lsquo;<em>BLYNK</em>&lsquo;</strong>(interfaz virtual de control y plataforma de software: APP + API + CLOUD), <strong>mediante la guía asistida de la <a href="https://gemini.google.com/u/2/gems/view?pageId=none"><em>AI Google Gemini Web</em></a></strong> (como co-creador del sistema circuital e instrucciones para la &lsquo;movilidad energética&rsquo; y transferencia de datos electrónicos): </p>
@@ -730,26 +730,93 @@ P 2.2 ~ LIBRARY INSTALL . (Arduino IDE)
 <p><strong>PASO 4</strong>  ~ APP MOBILE SETTING 
 <img alt="" src="../../images/MT07/MT07_ej1_AIpaso4.png" /></p>
 <p>P 4.1 ~ BUTTON SETTING . (Blynk Mobile) 
-<img alt="" src="../../images/MT07/MT07_ej2_AIp4.1.png" />
-<code>ESP32 Board &gt; [LED TEMPLATE] = (DataStream) VIRTUAL PIN BLYNK WRITE(V0) → (Widget Control) Digital BUTTON &gt; LED/power ~ LED-PIN/estado ON/OFF (1/0)</code></p>
+<img alt="" src="../../images/MT07/MT07_ej2_AIp4.1.png" /></p>
+<div class="highlight"><pre><span></span><code>ESP32<span class="w"> </span>Board<span class="w"> </span>&gt;<span class="w"> </span><span class="o">[</span>LED<span class="w"> </span>TEMPLATE<span class="o">]</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="o">(</span>DataStream<span class="o">)</span><span class="w"> </span>VIRTUAL<span class="w"> </span>PIN<span class="w"> </span>BLYNK<span class="w"> </span>WRITE<span class="o">(</span>V0<span class="o">)</span><span class="w"> </span>→<span class="w"> </span><span class="o">(</span>Widget<span class="w"> </span>Control<span class="o">)</span><span class="w"> </span>Digital<span class="w"> </span>BUTTON<span class="w"> </span>&gt;<span class="w"> </span>LED/power<span class="w"> </span>~<span class="w"> </span>LED-PIN/estado<span class="w"> </span>ON/OFF<span class="w"> </span><span class="o">(</span><span class="m">1</span>/0<span class="o">)</span>
+</code></pre></div>
 <p><img alt="" src="../images/MT07/MT07_ej1_AIp4_BlynkMobilebutton2b.png" /></p>
 <p>P 4.1 ~ WEB DASHBOARD . DEVICE SAVE/APPLY . (Blynk Web Console) 
 <img alt="" src="../../images/MT07/MT07ej1_blink4_webDashboard.png" /></p>
 <p><strong>CONEXIONES . #1</strong>
 Una vez completadas correctamente las 4 etapas del proceso, se logra la <strong>RESPUESTA de confirmación</strong> para la <strong>COMUNICACIÓN DIGITAL</strong>: transferencia de señal/dato, <strong>expresado con el control de encendido (&lsquo;SWITCH&rsquo; VIRTUAL BUTTON) de leds integrados</strong> <code>LED/power vs LED-PIN/estado ON/OFF</code>,  a partir de la combinación exitosa de la configuración entre componentes del sistema electrónico: WI-FI network + <strong><em>(hardware)</em></strong> MICROCONTROLADOR ESP32 + <strong><em>(software)</em></strong> [ BLYNK WEB + BLYNK MOBILE + ArduinoIDE &amp; CODE ]</p>
 <p><img alt="" src="../../images/MT07/MT07_ej1_AIconectLEDOFF-ON.png" /></p>
-<blockquote>
-<p><code>DIGITAL COMMUNICATION:</code>
-<code>VIRTUAL PIN (V0) → (activa acción &gt; Blynk APP-Mobile Software)</code>
-<code>Wi-Fi connection → manda señal/dato</code>
-<code>CODE → recibe orden y activa Pin Físico (GPIO 2 en placaSP32)</code> <br />
-<code>ESP32 Board Hardware ~ LEDs INTEGRADOS:</code> 
-<code>LED-PIN (Azul) estado ON/OFF 1/0 → (GPIO-2 o LED PIN-2,de instrucción/programable)</code>
-<code>LED (rojo) power (componente "sordo", no controlable, no pin(GPIO) asociado)</code>  </p>
-</blockquote>
+<div class="highlight"><pre><span></span><code>DIGITAL<span class="w"> </span>COMMUNICATION:
+
+VIRTUAL<span class="w"> </span>PIN<span class="w"> </span><span class="o">(</span>V0<span class="o">)</span><span class="w"> </span>→<span class="w"> </span><span class="o">(</span>activa<span class="w"> </span>acción<span class="w"> </span>&gt;<span class="w"> </span>Blynk<span class="w"> </span>APP-Mobile<span class="w"> </span>Software<span class="o">)</span>
+
+Wi-Fi<span class="w"> </span>connection<span class="w"> </span>→<span class="w"> </span>manda<span class="w"> </span>señal/dato
+
+CODE<span class="w"> </span>→<span class="w"> </span>recibe<span class="w"> </span>orden<span class="w"> </span>y<span class="w"> </span>activa<span class="w"> </span>Pin<span class="w"> </span>Físico<span class="w"> </span><span class="o">(</span>GPIO<span class="w"> </span><span class="m">2</span><span class="w"> </span>en<span class="w"> </span>placaSP32<span class="o">)</span>
+
+ESP32<span class="w"> </span>Board<span class="w"> </span>Hardware<span class="w"> </span>~<span class="w"> </span>LEDs<span class="w"> </span>INTEGRADOS:
+
+LED-PIN<span class="w"> </span><span class="o">(</span>Azul<span class="o">)</span><span class="w"> </span>estado<span class="w"> </span>ON/OFF<span class="w"> </span><span class="m">1</span>/0<span class="w"> </span>→<span class="w"> </span><span class="o">(</span>GPIO-2<span class="w"> </span>o<span class="w"> </span>LED<span class="w"> </span>PIN-2,de<span class="w"> </span>instrucción/programable<span class="o">)</span>
+
+LED<span class="w"> </span><span class="o">(</span>Rojo<span class="o">)</span><span class="w"> </span>power<span class="w"> </span><span class="o">(</span>componente<span class="w"> </span><span class="s2">&quot;sordo&quot;</span>,<span class="w"> </span>no<span class="w"> </span>controlable,<span class="w"> </span>no<span class="w"> </span>pin<span class="o">(</span>GPIO<span class="o">)</span><span class="w"> </span>asociado<span class="o">)</span>
+</code></pre></div>
 <p><img alt="" src="../../images/MT07/MT07_ej1_AIconectLEDOFF-ON_hardware.png" /></p>
 <p><img alt="" src="../images/MT01/.png" /> </p>
 <h3 id="dinamica-2-esp32-interfaz-uso-actuador-fisico-arduino-esp32-connectivity-sketch-2">DINÁMICA 2 . <strong>ESP32 ~ INTERFAZ USO + ACTUADOR FÍSICO</strong> . Arduino ESP32 Connectivity . sketch 2<a class="headerlink" href="#dinamica-2-esp32-interfaz-uso-actuador-fisico-arduino-esp32-connectivity-sketch-2" title="Permanent link">&para;</a></h3>
+<p><strong>OBJETIVO</strong>
+La propuesta debe permitir que el usuario pueda enviar acciones o cambios de estado al actuador desde la interfaz elegida. Además, se debe explicar brevemente:
++ qué actuador fue seleccionado,
++ qué interfaz se utilizó,
++ cómo se comunica la interfaz con el ESP32,
++ qué acción realiza el actuador al recibir la orden.</p>
+<p>La 2da dinámica consistió en: Generar un sistema de conectividad, ESP32 / Web Server / Sensor DATA DHT Display. Configurar el ESP32 como servidor web para monitorear variables ambientales (Humedad/Temp),  un proceso que mezcla electrónica, redes y desarrollo web básico. </p>
+<p><strong>PROMPT AI + PROCEDIMIENTO</strong>
+<img alt="" src="../../images/MT07/MT07_ej2_Gemini_prompt.png" /></p>
+<p><strong>PASO 1</strong> ~  SENSOR DHT22 CONNECT . (Hardware)
+<div class="highlight"><pre><span></span><code>SENSOR<span class="w"> </span>DHT22<span class="w"> </span><span class="o">(</span>temp/hum<span class="o">)</span><span class="w"> </span>→<span class="w"> </span>Esp32<span class="w"> </span>:<span class="w"> </span>
+<span class="o">(</span>DHT<span class="o">)</span><span class="w"> </span>pin<span class="w"> </span><span class="m">3</span><span class="w"> </span>DAT<span class="w"> </span>→<span class="w"> </span>pin<span class="w"> </span>D4<span class="w"> </span>GPIO-4<span class="w"> </span><span class="o">(</span>esp32<span class="o">)</span><span class="w"> </span>+<span class="w"> </span>
+<span class="o">(</span>DHT<span class="o">)</span><span class="w"> </span>pin<span class="w"> </span><span class="m">2</span><span class="w"> </span>VCC<span class="w"> </span>→<span class="w"> </span>3V3<span class="w"> </span><span class="o">(</span>esp32<span class="o">)</span><span class="w"> </span>+<span class="w"> </span>
+<span class="o">(</span>DHT<span class="o">)</span><span class="w"> </span>pin<span class="w"> </span><span class="m">1</span><span class="w"> </span>GND<span class="w"> </span>→<span class="w"> </span>GND<span class="w"> </span><span class="o">(</span>esp32<span class="o">)</span>
+</code></pre></div>
+<img alt="" src="../../images/MT07/MT07_ej2_Gem_paso1b.png" /></p>
+<p><img alt="" src="../../images/MT07/MT07_ej2_AIconectWEBSERVER.jpeg" />
+<a href="[https://](https://www.makerguides.com/e/dht11-dht22-arduino-tutorial-es/)"><em>+ info [ Sensores DHT11 y DHT22 (con/sin PCB) ]</em></a>
+<a href="[https://](https://youtu.be/olosoz7oqGc?si=Rvjklg_lL3SjukEl)"><em>+ info [ Sensor DHT22 + Resistencia ~ Tutorial ]</em></a>
+<a href="[https://](https://youtu.be/5npwcVLtcl0?si=mIRjhWsObOjCPU7t)"><em>+ info [ PROTOBOARD y código resistencias ]</em></a></p>
+<p><strong>PASO 2</strong> ~ ARDUINO-IDE SETTING . (Software)</p>
+<p><img alt="" src="../../images/MT07/MT07_ej2_Gem_paso2.png" /></p>
+<p>P 2.1 ~ BOARD ESP32 INSTALL . (Arduino IDE)</p>
+<p><img alt="" src="../../images/MT07/MT07_ej2_Gem_paso2.1_esp32.png" /></p>
+<p>Según las indicaciones de conexión del circuito y características descritas sobre el Sensor DHT, mi Sensor DHT (con placa base PCB [*]), no necesita resistencia al estar integrada. </p>
+<p>[*] En el contexto de los sensores DHT (DHT11/DHT22), PCB se refiere a la Printed Circuit Board (Placa de Circuito Impreso) en la que viene montado el sensor. Esta PCB facilita su uso al integrar resistencias de pull-up (generalmente 5kΩ o 10kΩ) y pines soldados, convirtiendo el sensor de 4 pines a un módulo de 3 pines (VCC, GND, Datos) más seguro y sencillo para conectar a Arduino, ESP8266 o ESP32.</p>
+<p>P 2.2 ~ LIBRARY INSTALL . (Arduino IDE)</p>
+<p><img alt="" src="../../images/MT07/MT07_ej2_Gem_paso2_Library.png" />
+<a href="[https://](https://www.youtube.com/watch?v=dE5C5OBfkIA)"><em>+ info LIBRARY INSTALL ~ ESP32 - DHT - WEBSERVER Connectivity</em></a></p>
+<p><strong>PASO 3</strong> ~ CODE + WiFi CONNECT PROCESS . (Software/Backend) 
+Configurar la conectividad WiFi del sistema electrónico para activar el (paso 4), Web Server WiFi y la comunicación efectiva del flujo de datos (entre Software y Hardware), en el código (<em>Firmware y Web</em>), las credenciales (id. user + password) para mi red local. </p>
+<p><img alt="" src="../../images/MT07/MT07_ej2_Gem_paso3.png" />
+<a href="[https://](https://gemini.google.com/u/2/app/6f9c541196f5c5fa?utm_source=app_launcher&amp;utm_medium=owned&amp;utm_campaign=base_all&amp;pageId=none)"> <em>+ info CODE + WiFi ~ ESP32 - DHT - WEBSERVER Connectivity</em> </a></p>
+<p><strong>PASO 4</strong> ~ GRAPHICAL UI DISPLAY &amp; Web Server - WiFi . (Software/Frontend + Backend)</p>
+<p>Activar Web Server WiFi (a través de la IP generada) para el sistema del circuito electrónico, vinculando sus componentes; Software-Backend [ Code arduino IDE + Red WiFi ] + Hardware [ ESP32 + DHT + PC ], para la visualización de la Interfaz Visual de Usuario (UI-Frontend).</p>
+<p>Para visualizar la <strong>interfaz gráfica</strong> de usuario <strong>(UI Visual/Canvas - Frontend)</strong>, es decir el resultado visual de instrucciones (código/Script - Backend) que genera el microcontrolador ESP32, el dispositivo, &ldquo;se convierte en un mini servidor&rdquo; de internet (Web Server) privado dentro de &ldquo;casa” a través del cual veremos la interfaz con el flujo de datos de temp. y hum. actualizados en tiempo real. Entonces, el ESP32 que actúa como un Webservidor que envía código (web) HTML al navegador, habilita el siguiente flujo de datos:</p>
+<p><img alt="" src="../../images/MT07/MT07_ej2_Gem_paso4.png" /></p>
+<ol>
+<li>LECTURA: El ESP32 lee los valores de <code>dht. readTemperature() y dht. readHumidity().</code></li>
+<li>SERVIDOR: Crea una instancia (servicio) de WiFiServer = Server(80).</li>
+<li>INTERFAZ GRÁFICA de USUARIO (UI) <code>&lt;canvas&gt;</code> : El código debe generar un documento HTML que incluya los valores. Para que sea &ldquo;gráfica&rdquo; y se actualice sola, puedo usar:
+<strong>Meta Refresh</strong>: Para recargar la página automáticamente cada pocos segundos.
+<strong>CSS/Gráficos</strong>: Se puede incluir/incrustar <em>estilos CSS</em> directamente dentro del mismo archivo HTML utilizando las etiquetas <code>&lt;style&gt; y &lt;/style&gt;</code>(ubicadas en la sección <code>&lt;head&gt;</code>), para crear tarjetas visuales o usar librerías como ThingSpeak (para crear una nube con gráficas avanzadas).</li>
+</ol>
+<p><img alt="" src="../../images/MT07/MT07ej2_webserver_interfaz.png" />
+<img alt="" src="../../images/MT07/MT07_Gem_paso4_IPwebserver_basic1.png" /></p>
+<p><strong>PASO 5</strong> ~ GRAPHICAL UI DISPLAY INTERACTION (Software/Frontend)</p>
+<p>Ahora que la lógica &ldquo;backend&rdquo; (la comunicación de red y la lectura del sensor) funciona a la perfección, podemos enfocarnos 100% en el &ldquo;frontend&rdquo; (la interfaz que ve e interactúa el usuario).
+Explorando distintas versiones de Código y sus variables de instrucciones (script/Backend)para enriquecer el Canvas Visual  (UI &ldquo;Frontend”), identifiqué dos versiones de INTERFAZ GRÁFICA DE USO posibles:  <code>1.INTERFAZ GRÁFICA (HTML + CSS + JS NATIVO Y OFFLINE) y 2.INTERFAZ GRÁFICA (HTML + CSS + JS CON HIGHCHARTS).</code></p>
+<p><strong>1. // &mdash; INTERFAZ GRÁFICA (HTML + CSS + JS NATIVO Y OFFLINE) —</strong></p>
+<p><img alt="" src="../../images/MT07/MT07_UI-Offline1.png" /></p>
+<p><strong>UI VERSIÓN NATIVA/OFFLINE</strong>: En este caso, modifiqué (por partes) algunas variables que necesitaba para enriquecer el código e ir entendiendo cómo se comunican las distintas partes del programa de código de instrucciones (el &ldquo;Front-end&rdquo; o diseño, y el &ldquo;Back-end&rdquo; o cerebro) y así obtuve <strong>distintas variantes de UI enriquecidas</strong>:</p>
+<p><strong>A . UI enriquecida básica</strong> (offline): Apliqué un cambio visual de estilo tipo &ldquo;Dark Mode&rdquo; con cajas de sombras, diseño adaptable (responsive) a otros formatos de dispositivos (ej. Mobile).</p>
+<p><img alt="" src="../../images/MT07/MT07_UI-Offline1.png" /></p>
+<p><strong>CÓDIGO</strong> NUEVO ~ INTERFAZ A</p>
+<p><strong>B. UI enriquecida interactiva</strong> (offline): En este caso para hacer la interfaz más interactiva, añadí gráficas en tiempo real que dibujaran el historial reciente de temperatura y humedad, aplicando un cambio visual de estilo tipo &ldquo;Dark Mode&rdquo;. Este resultado de interfaz interactiva es una fusión entre ambas versiones básicas combinando entre sí distintos componentes variables de interés de ambos códigos.
+<img alt="" src="../images/MT07/MT07_Gem_p4_webserver_rica.png" /></p>
+<p><strong>CÓDIGO</strong> NUEVO ~ INTERFAZ B 
+<img alt="" src="../../images/MT07/MT07_Gem_p4_webserver_rica.gif" /></p>
+<p><strong>CONEXIÓN</strong> ~ <strong>Hardware + WebServer</strong> para última versión de interfaz enriquecida.
+<img alt="" src="../../images/MT07/MT07_Gem_p4_hardware.gif" /></p>
                 
                   
                     
@@ -758,7 +825,7 @@ Una vez completadas correctamente las 4 etapas del proceso, se logra la <strong>
 <div class="md-source-date">
   <small>
     
-      Last update: <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date" title="April 9, 2026 15:00:52 UTC">April 9, 2026</span>
+      Last update: <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date" title="April 9, 2026 20:05:10 UTC">April 9, 2026</span>
     
   </small>
 </div>
