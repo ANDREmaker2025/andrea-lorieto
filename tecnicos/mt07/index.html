@@ -386,6 +386,13 @@
   
 </li>
       
+        <li class="md-nav__item">
+  <a href="#links-de-interes-mt07" class="md-nav__link">
+    LINKS DE INTERÉS . MT07
+  </a>
+  
+</li>
+      
     </ul>
   
 </nav>
@@ -650,6 +657,13 @@
   
 </li>
       
+        <li class="md-nav__item">
+  <a href="#links-de-interes-mt07" class="md-nav__link">
+    LINKS DE INTERÉS . MT07
+  </a>
+  
+</li>
+      
     </ul>
   
 </nav>
@@ -680,8 +694,8 @@
 <img alt="" src="../images/MT01/.png" /> 
 <img alt="" src="../images/MT01/.png" /> </p>
 <hr />
-<p>Este <strong><em>Módulo Técnico 07</em></strong> enmarcado en la fabricación digital nos introdujo en las <strong><em>Interfases y aplicaciones en el contexto de los microcontroladores electrónicos</em></strong>, para el IoT (Internet de las Cosas). Con el objetivo de comprender la utilidad y funcionamiento básica de una <strong>interfaz electrónica</strong>, como un sistema que facilita la <strong>comunicación (ver estados/variables) e interacción (ejecutar acciones) entre diferentes dispositivos electrónicos en la transmisión de señales de datos</strong>. Frente a un área ajena a mi formación (la ingeniería electrónica), me desafié un paso más, intentando profundizar en el tema, y a partir de lectura/literatura afín, (e infinidad de dudas liberadas a través de consultas y razonamiento conjunto con la IA), desarrollé este esquema sintético para comprender la configuración de la UI + UX en el ECOSISTEMA ELECTRÓNICO ~ ESP32: </p>
-<p><img alt="" src="../images/MT01/.png" /> </p>
+<p>Este <strong><em>Módulo Técnico 07</em></strong> enmarcado en la fabricación digital nos introdujo en las <strong><em>Interfases y aplicaciones en el contexto de los microcontroladores electrónicos</em></strong>, para el IoT (Internet de las Cosas). Con el objetivo de comprender la utilidad y funcionamiento básica de una <strong>interfaz electrónica</strong>, como un sistema que facilita la <strong>comunicación (ver estados/variables) e interacción (ejecutar acciones) entre diferentes dispositivos electrónicos en la transmisión de señales de datos</strong>. Frente a un área ajena a mi formación (la ingeniería electrónica), me desafié un paso más, intentando profundizar en el tema, y a partir de lectura/literatura afín, (e infinidad de dudas liberadas a través de consultas y razonamiento conjunto con la IA), desarrollé este esquema sintético para comprender la configuración de la UI + UX en el ECOSISTEMA ELECTRÓNICO ~ ESP32: 
+<img alt="" src="../images/MT01/.png" /> </p>
 <p><em>❝ La interfaz no es un objeto sino un proceso, el lugar de la interacción. No es un simple adorno (&hellip;) que se añade al final para que el hardware sea más bonito; es el dispositivo de interacción que vincula a los actores humanos y tecnológicos ❞.</em> <em>[ Carlos A. Scolari . Universitat Pompeu Fabra . Barcelona ]</em>
 <img alt="" src="../images/MT01/.png" /> </p>
 <p><img alt="" src="../../images/MT07/MT07_ecosistem_ESP32.png" /></p>
@@ -811,12 +825,12 @@ Explorando distintas versiones de Código y sus variables de instrucciones (scri
 <p><strong>1. // &mdash; INTERFAZ GRÁFICA (HTML + CSS + JS NATIVO Y OFFLINE) —&ndash;</strong></p>
 <p><img alt="" src="../../images/MT07/MT07_UI-Offline1.png" /></p>
 <p><strong>UI VERSIÓN NATIVA/OFFLINE</strong>: En este caso, modifiqué (por partes) algunas variables que necesitaba para enriquecer el código e ir entendiendo cómo se comunican las distintas partes del programa de código de instrucciones (el &ldquo;Front-end&rdquo; o diseño, y el &ldquo;Back-end&rdquo; o cerebro) y así obtuve <strong>distintas variantes de UI enriquecidas</strong>:</p>
-<p><strong>A . UI enriquecida básica</strong> (offline): Apliqué un cambio visual de estilo tipo &ldquo;Dark Mode&rdquo; con cajas de sombras, diseño adaptable (responsive) a otros formatos de dispositivos (ej. Mobile).
-<img alt="" src="../../images/MT07/MT07_Gem_p5_IPwebserver_basic2.png" /></p>
+<p><strong>A . UI enriquecida básica</strong> (offline): Apliqué un cambio visual de estilo tipo &ldquo;Dark Mode&rdquo; con cajas de sombras, diseño adaptable (responsive) a otros formatos de dispositivos (ej. Mobile).</p>
+<p><img alt="" src="../../images/MT07/MT07_Gem_p5_IPwebserver_basic2.png" /></p>
 <p><strong>CÓDIGO</strong> NUEVO ~ INTERFAZ Web A
 <img alt="" src="../../images/MT07/MT07_Gem_p4_WScode_rica.png" /></p>
-<p><strong>B. UI enriquecida interactiva</strong> (offline): En este caso para hacer la interfaz más interactiva, añadí gráficas en tiempo real que dibujaran el historial reciente de temperatura y humedad, aplicando un cambio visual de estilo tipo &ldquo;Dark Mode&rdquo;. Este resultado de interfaz interactiva es una fusión entre ambas versiones básicas combinando entre sí distintos componentes variables de interés de ambos códigos.
-<img alt="" src="../../images/MT07/MT07_Gem_p5_IPwebserver_rica3.png" />
+<p><strong>B. UI enriquecida interactiva</strong> (offline): En este caso para hacer la interfaz más interactiva, añadí gráficas en tiempo real que dibujaran el historial reciente de temperatura y humedad, aplicando un cambio visual de estilo tipo &ldquo;Dark Mode&rdquo;. Este resultado de interfaz interactiva es una fusión entre ambas versiones básicas combinando entre sí distintos componentes variables de interés de ambos códigos.</p>
+<p><img alt="" src="../../images/MT07/MT07_Gem_p5_IPwebserver_rica3.png" />
 <img alt="" src="../../images/MT07/MT07_Gem_p4_webserver_rica.gif" /></p>
 <p><strong>CONEXIÓN</strong> ~ <strong>Hardware + WebServer</strong> para última versión de interfaz enriquecida.
 <img alt="" src="../../images/MT07/MT07_Gem_p4_hardware.gif" /></p>
@@ -824,20 +838,62 @@ Explorando distintas versiones de Código y sus variables de instrucciones (scri
 <img alt="" src="../../images/MT07/MT07_UI-Offline2.png" /></p>
 <p><strong>Componentes del código redefinidos para UI (interfaz B):</strong></p>
 <p><strong>UI_1 ~ Code Canvas:</strong>
-Agregué Gráficas ilustrativas que expresen de forma dinámica el flujo de datos variable Temp/Hum. La inclusión y funcionamiento de los gráficos se divide exactamente en tres bloques clave. 
-<img alt="" src="../../images/MT07/MT07_Gem_p5_UI1.png" /></p>
+Agregué Gráficas ilustrativas que expresen de forma dinámica el flujo de datos variable Temp/Hum. La inclusión y funcionamiento de los gráficos se divide exactamente en tres bloques clave. </p>
+<p><img alt="" src="../../images/MT07/MT07_Gem_p5_UI1.png" /></p>
 <p><strong>UI_2 ~ Code Botón interactivo:</strong> 
 Agregué botón interactivo (Tarjeta control LED) + la función clic que envía la orden al ESP32 al hacer clic en botón on/off luz led azul integrado en la ESP32.
-Agregar el &ldquo;Cerebro&rdquo; del botón al ESP32 &gt;  LED PIN Sensor: definición + configuración + ruta web recepción clic LED on/off. 
-<img alt="" src="../../images/MT07/MT07_Gem_p5_UI2.png" /></p>
+Agregar el &ldquo;Cerebro&rdquo; del botón al ESP32 &gt;  LED PIN Sensor: definición + configuración + ruta web recepción clic LED on/off. </p>
+<p><img alt="" src="../../images/MT07/MT07_Gem_p5_UI2.png" /></p>
 <p><strong>UI_3 ~ Code Iteración flujo de datos Hum/Temp:</strong> 
-Cambié la solicitud de flujo de datos, variando la velocidad de consultas de flujo de datos de TEMP y HUM de 2000 a 2500, para que las gráficas visualicen con agilidad el flujo de datos variable.
-<img alt="" src="../../images/MT07/MT07_Gem_p5_WScode_rica_UI3.png" /></p>
+Cambié la solicitud de flujo de datos, variando la velocidad de consultas de flujo de datos de TEMP y HUM de 2000 a 2500, para que las gráficas visualicen con agilidad el flujo de datos variable.</p>
+<p><img alt="" src="../../images/MT07/MT07_Gem_p5_WScode_rica_UI3.png" /></p>
 <p><strong>2.// &mdash; INTERFAZ GRÁFICA (HTML + CSS + JS CON HIGHCHARTS) &mdash;</strong></p>
 <p><strong>UI VERSIÓN HIGHCHARTS</strong>: En este caso para hacer la interfaz más avanzada, para las gráficas se podría usar una <strong><em>librería Highcharts</em></strong>, gratuita profesional externa al ESP32 (el código no está guardado dentro de la memoria del ES32). En la versión Highcharts la librería es muy potente y ofrece un paquete de código inmenso, pesado y muy avanzado creado por otra empresa. Cómo es demasiado grande para guardarlo cómodamente dentro de la pequeña memoria del ESP32, ese código &ldquo;vive&rdquo; en servidores en Internet. <a href="[https://](https://www.highcharts.com/)"><em>+ info [ Librería JavaScript HIGHCHARTS ]</em></a></p>
 <p><img alt="" src="../../images/MT07/MT07_UI-HighChart1.png" /></p>
 <p><strong>CÓDIGO NUEVO</strong> ~ INTERFAZ Web C HIGHCHARTS
-<img alt="" src="../../images/MT07/MT07_UI-HighChart2.png" /></p>
+<img alt="" src="../../images/MT07/MT07_UI-HighChart2.png" />
+<img alt="" src="../images/MT01.png" />
+<img alt="" src="../images/MT01.png" /></p>
+<hr />
+<h2 id="links-de-interes-mt07"><strong>LINKS DE INTERÉS</strong> . MT07<a class="headerlink" href="#links-de-interes-mt07" title="Permanent link">&para;</a></h2>
+<p>ESP32 
+<a href="https://youtu.be/X4movA5xtBU?si=yCFi-8Lkn0yUPTqu">https://youtu.be/X4movA5xtBU?si=yCFi-8Lkn0yUPTqu</a></p>
+<p>SENSORES  DHT11 y DHT22 (con/sin PCB) 
+<a href="https://www.makerguides.com/es/dht11-dht22-arduino-tutorial-es/">https://www.makerguides.com/es/dht11-dht22-arduino-tutorial-es/</a></p>
+<p>SENSOR DHT22 + Resistencia ~ Tutorial 
+<a href="https://youtu.be/olosoz7oqGc?si=Rvjklg_lL3SjukEl">https://youtu.be/olosoz7oqGc?si=Rvjklg_lL3SjukEl</a></p>
+<p>TARJETA PERFORADA 
+<a href="https://es.wikipedia.org/wiki/Tarjeta_perforada">https://es.wikipedia.org/wiki/Tarjeta_perforada</a></p>
+<p>INTERFAZ ELECTRÓNICA 
+<a href="https://www-sciencedirect-com.translate.goog/topics/computer-science/electronic-interface?_x_tr_sl=en&amp;_x_tr_tl=es&amp;_x_tr_hl=es&amp;_x_tr_pto=wa">https://www-sciencedirect-com.translate.goog/topics/computer-science/electronic-interface?_x_tr_sl=en&amp;_x_tr_tl=es&amp;_x_tr_hl=es&amp;_x_tr_pto=wa</a></p>
+<p>INTERFAZ / MICROCONTROLADORES 
+<a href="https://es.scribd.com/document/908956032/Apuntes-Micros-Part-3">https://es.scribd.com/document/908956032/Apuntes-Micros-Part-3</a></p>
+<p>INTERFAZ / PROTOCOLOS
+<a href="https://www.tme.eu/es/news/library-articles/page/60826/interfaces-y-protocolos-de-comunicacion-populares/">https://www.tme.eu/es/news/library-articles/page/60826/interfaces-y-protocolos-de-comunicacion-populares/</a></p>
+<p>SENSORES ELECTRONICOS / MOVIMIENTO </p>
+<ul>
+<li><a href="https://www.electronica.uy/?s=sensor+inercial&amp;post_type=product&amp;dgwt_wcas=1">https://www.electronica.uy/?s=sensor+inercial&amp;post_type=product&amp;dgwt_wcas=1</a></li>
+<li><a href="https://www.adafruit.com/product/2472">https://www.adafruit.com/product/2472</a></li>
+<li><a href="https://www.electronica.uy/producto/robotica/robotica-robotica/modulo-9-ejes-imu-mpu9250/">https://www.electronica.uy/producto/robotica/robotica-robotica/modulo-9-ejes-imu-mpu9250/</a></li>
+<li><a href="https://kalmanfilter.net/ES/default_es.aspx">https://kalmanfilter.net/ES/default_es.aspx</a></li>
+<li><a href="https://docs.arduino.cc/libraries/kalman-filter-library/">https://docs.arduino.cc/libraries/kalman-filter-library/</a>
+__</li>
+</ul>
+<p>HIGHCHARTS
+<a href="https://www.highcharts.com/">https://www.highcharts.com/</a></p>
+<p>LOVABLE 
+<a href="https://lovable.dev/">https://lovable.dev/</a></p>
+<p>P5JS
+<a href="https://p5js.org/es/">https://p5js.org/es/</a></p>
+<p>WOKWI
+<a href="https://wokwi.com/projects/454858670976591873">https://wokwi.com/projects/454858670976591873</a>
+<a href="https://wokwi.com/">https://wokwi.com/</a></p>
+<p>NODE-RED ~ DASHBOARD
+<a href="https://aprendiendoarduino.wordpress.com/2020/03/10/dashboard-en-node-red/">https://aprendiendoarduino.wordpress.com/2020/03/10/dashboard-en-node-red/</a></p>
+<p>Node-red - que es?
+<a href="https://nodered-org.translate.goog/?_x_tr_sl=en&amp;_x_tr_tl=es&amp;_x_tr_hl=es&amp;_x_tr_pto=tc">https://nodered-org.translate.goog/?_x_tr_sl=en&amp;_x_tr_tl=es&amp;_x_tr_hl=es&amp;_x_tr_pto=tc</a></p>
+<p>Node red - install
+<a href="https://nodered.org/docs/faq/interacting-with-arduino#installation">https://nodered.org/docs/faq/interacting-with-arduino#installation</a></p>
                 
                   
                     
@@ -846,7 +902,7 @@ Cambié la solicitud de flujo de datos, variando la velocidad de consultas de fl
 <div class="md-source-date">
   <small>
     
-      Last update: <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date" title="April 9, 2026 22:26:47 UTC">April 9, 2026</span>
+      Last update: <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date" title="April 9, 2026 23:00:11 UTC">April 9, 2026</span>
     
   </small>
 </div>
