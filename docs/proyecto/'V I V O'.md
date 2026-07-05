@@ -107,3 +107,64 @@ C2: **PROTOTIPADO ‘Físico’** _INTERACCIÓN HÍBRIDA_ >  **+ ANALÓGICO &  �
 Comienza con el desarrollo del [_PROTOTIPO C2-2_](https://docs.wokwi.com/?utm_source=wokwi); El objetivo inicial fue obtener una aproximación al sistema electrónico a nivel macro en formato netamente virtual y simulado del sistema, para visualizar el funcionamiento base del circuito de componentes, y generar un boceto primario de código de programación funcional de una GUI (basada en el Firmware + Software) proximamente depurada en la inclusión del Hardware.
 El objetivo principal de este ensayo se centró en obtener la simulación virtual virtual de la posición en tiempo real de los módulos electrónicos componentes del sistema: la board [_ESP32-V1_](https://www.electronica.uy/producto/robotica/tarjetas-de-desarrollo/expressif-esp/modulo-esp32-wifi-bluetooth-30pines/) y el sensor [_MPU6050 GY-8710DOF (MPU6050 GY-52)_](https://www.electronica.uy/producto/robotica/modulos-posicion-inerciales/modulo-sensor-imu-gy-87-10dof-mpu6050-bmp180-hmc5883l/).
 
+![](../images/PI/PI_12_WOKWI_PROT_C1_sketch1.png)
+[+info [ WOKWI ~ PROTOTIPO C2 - #2 ]]([https://](https://docs.wokwi.com/?utm_source=wokwi))
+
+
+![](../images/PI/PI_10_PROT_A0_ESP32CAM_IMG_1082.png)
+![](../images/PI/PI_10_PROT_A0_ESP32CAM_IMG_1082.png)
+![](../images/PI/PI_10_PROT_A0_ESP32CAM_IMG_1082.png)
+![](../images/PI/PI_10_PROT_A0_ESP32CAM_IMG_1082.png)
+
+![](../images/PI/PI_14_GUI_PROT_A_FISICO_6c.png)
+[+info [_PROCESSING ~ PROTOTIPO C2-,4,5,6_]]([https://](https://processing.org))
+
+#### A2 . **ELECTRÓNICA ~ IN**
+
+![](../images/PI/PI_15_ELECT-IN.png)
+![](../images/PI/PI_16_ELECT-IN_IMG_1958.jpg)
+
+#### B2 . **‘ CANVAS '**
+
+##### _CANVAS 1 . [ bandeja ~ TPU & PTG ]_
+![](../images/PI/PI_17_canva1.png)
+![](../images/PI/PI_18_PROT_2026-06-24.png)
+
+##### _CANVAS 2 . [ bastidor escala 1:2 ~ PETG ]_
+![](../images/PI/PI_17b_canva2.png)
+![](../images/PI/PI_17h_canva2.png)
+
+##### _CANVAS 3 . [ bastidor escala 1:1 ~ TPU + TEXTIL de unión ]_
+![](../images/PI/PI_17c_canva3.png)
+![](../images/PI/PI_17f_CANVAS_3_60cm_TEXTIL.png)
+![](../images/PI/PI_19_PROT_B2_IMG_1714.png)
+![](../images/PI/PI_19_PROT_B2_IMG_1705.jpg)
+![](../images/PI/PI_19_PROT_B2_IMG_1722.jpg)
+![](../images/PI/PI_19_PROT_B2_IMG_1722b.png)
+![](../images/PI/PI_19_Print3D_PROTB2_LabA.gif)
+
+🎬  [_[ Print 3D ~ PROTOTIPOS_B2 ~ LabA_Minas ]_]([https://](https://drive.google.com/file/d/1I5s5tmDQXdpu3i-Bc5vA0ijZzbRGIIgr/view?usp=share_link))
+
+Frente a la limitación técnica del ‘CANVAS’ #3 de escala 1:1 (60 cm diámetro) vs. el tamaño máximo admitido por máquina 3D print (32cm) y con el afán de investigar una solución de diseño potencial para la unión del plano “canvas” configurado en secciones de ensamble (para la fabricación) que explote las posibilidades tecnológicas más allá de la aplicación, enriqueciendo el proyecto desde una posibilidades ‘innovadora‘ que transgrede la solución de unión a través de este ensayo no convencional. 
+
+Estaba ante un desafío exigente generar una superficie flexible de gran escala (por encima de la maquinaria en laboratorio) que demandaba tiempo de iteración reiterada, pruebas de ensayo y error continuo y ante un único intento de impresión en un tiempo restringido de posibilidades para investigar esa resolución técnica, el sistema de unión mediante un alma laminar textil, no prosperó exitosamente. Una vez ingresado el textil sobre la primera capa de laminado, el laminado de impresión final rompió la malla textil, desajustando el control de los materiales en la cama y deteniendo por completo el proceso de fabricación de forma irreversible. La pieza quedó inconclusa Hubo así, que poner en marcha de forma urgente y contra reloj el - plan b - de un nuevo modelo 3D del sistema de unión del CANVA, ahora rígido, por encastres.
+
+##### _CANVAS 3 . [ bastidor escala 1:1 ~ PETG ]_
+![](../images/PI/PI_17de_canva4.png) 
+![](../images/PI/PI_19_PROT_B2_IMG_2026-06-24c.png)
+![](../images/PI/PI_19_PROT_B2_IMG2026-06-24c.jpg) 
+
+#### B1 . **‘ BALL '**
+
+![](../images/PI/PI_17g_esfera.png) 
+![](../images/PI/PI_19_2026-06-11.png) 
+![](../images/PI/PI_19_Print3D_PROTB1_LabA_Minas.png) 
+![](../images/PI/PI_19_Print3D_PROTB1_LabA_Minas.gif) 
+🎬  [_[ Print 3D ~ PROTOTIPO_B1 ~ LabA_Minas ]_]([https://](https://drive.google.com/file/d/1dtroMwpdZbvULd4XwqD87ZjZKZnUexRk/view?usp=share_link))
+
+### **PROPUESTA** . CÓMO ~ EXPERIENCIA USO [ interfaz UX-GUI ] 
+![](../images/PI/PI_20_prop_UX-UI2.png) 
+![](../images/PI/PI_8_prop_UX-UI.png) 
+
+### **PROPUESTA** . PRÓXIMOS PASOS ~  ALCANCE DISEÑO MULTIESCALAR  [ contextos de intervención ]
+![](../images/PI/PI_21_prop_UX-UI2.png) 
