@@ -1,6 +1,6 @@
 {
     "editor.allowVariableFontsInAccessibilityMode": true,
-    "editor.columnSelection": true,
+    "editor.columnSelection": false,
     "git.inputValidation": false,
     "markdown.validate.enabled": false,
     "editor.suggest.preview": false,
