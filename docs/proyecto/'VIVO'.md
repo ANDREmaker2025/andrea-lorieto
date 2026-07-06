@@ -4,19 +4,16 @@ hide:
 ---
 
 # **PFI** 01 & 02
->#
+>
 >## **PROYECTO FINAL INTEGRADOR** 
->#
+>
 ># ' *V I V O* '
 
-<br>
-<br>
 <br>
 _____
 
   
-# **PROPUESTA ~ PROCESO IDEACIÓN**
-*MARCO CONCEPTUAL*
+# **PROPUESTA ~ PROCESO IDEACIÓN** . *MARCO CONCEPTUAL*
 <p></p>
 
 ### **PROBLEMA** . POR & PARA QUÉ
@@ -102,7 +99,9 @@ C2: **PROTOTIPADO ‘Físico’** _INTERACCIÓN HÍBRIDA_ >  **+ ANALÓGICO &  �
 
 [_+info [ PROCESSING~ PROTOTIPO C1-1,2,3 ]_]([https://](https://processing.org))
 
-![](../images/PI/PI_11b_PROT_C1-2026-05-21.png)
+![](../images/PI/PI_11b_PROT_C1-2026-05-21.jpg)
+![](../images/PI/PI_10_GUI_artwork.gif)
+
 [_+info [ PROCESSING ~ PROTOTIPO C1-3 ]_](https://https://processing.org)
 
 #### C2 . **GUI** [~ A2]
