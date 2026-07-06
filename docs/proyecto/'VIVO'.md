@@ -3,8 +3,11 @@ hide:
     - toc
 ---
 
-> # **PROYECTO INTEGRADOR** 
-> *' V I V O '*
+# **PFI** 01 & 02
+>#
+>## **PROYECTO FINAL INTEGRADOR** 
+>#
+># ' *V I V O* '
 
 <br>
 <br>
@@ -97,10 +100,10 @@ C2: **PROTOTIPADO ‘Físico’** _INTERACCIÓN HÍBRIDA_ >  **+ ANALÓGICO &  �
 ![](../images/PI/PI_10_PROT_A0_ESP32CAM_IMG_1082.png)
 ![](../images/PI/PI_10_PROT_A0_ESP32CAM_IMG_1082.png)
 
-[_+info [ PROCESSING~ PROTOTIPO C1-1,2,3_]]([https://](https://processing.org))
+[_+info [ PROCESSING~ PROTOTIPO C1-1,2,3 ]_]([https://](https://processing.org))
 
 ![](../images/PI/PI_11b_PROT_C1-2026-05-21.png)
-[_+info [ PROCESSING ~ PROTOTIPO C1-3_]](https://https://processing.org)
+[_+info [ PROCESSING ~ PROTOTIPO C1-3 ]_](https://https://processing.org)
 
 #### C2 . **GUI** [~ A2]
 
