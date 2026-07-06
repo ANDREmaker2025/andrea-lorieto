@@ -93,33 +93,28 @@ En este trayecto de proceso gradual de prototipado de simulación virtual de ava
 C1: **PROTOTIPADO ‘virtual’** _INTERACCIÓN HÍBRIDA_ >  **+ VIRTUAL  &  – ANALÓGICO**
 C2: **PROTOTIPADO ‘Físico’** _INTERACCIÓN HÍBRIDA_ >  **+ ANALÓGICO &  – VIRTUAL**
 
-![](../images/PI/PI_10_PROT_A0_ESP32CAM_IMG_1082.png)
-![](../images/PI/PI_10_PROT_A0_ESP32CAM_IMG_1082.png)
-![](../images/PI/PI_10_PROT_A0_ESP32CAM_IMG_1082.png)
-
-[_+info [ PROCESSING~ PROTOTIPO C1-1,2,3 ]_]([https://](https://processing.org))
-
+![](../images/PI/PI_11_PROT_A_VIRTUAL_3.gif)
 ![](../images/PI/PI_11b_PROT_C1-2026-05-21.jpg)
 ![](../images/PI/PI_10_GUI_artwork.gif)
+[_+info [ PROCESSING~ PROTOTIPO C1- 0,1,2,3 ]_]([https://](https://processing.org))
 
-[_+info [ PROCESSING ~ PROTOTIPO C1-3 ]_](https://https://processing.org)
 
 #### C2 . **GUI** [~ A2]
 
-Comienza con el desarrollo del [_PROTOTIPO C2-2_](https://docs.wokwi.com/?utm_source=wokwi); El objetivo inicial fue obtener una aproximación al sistema electrónico a nivel macro en formato netamente virtual y simulado del sistema, para visualizar el funcionamiento base del circuito de componentes, y generar un boceto primario de código de programación funcional de una GUI (basada en el Firmware + Software) proximamente depurada en la inclusión del Hardware.
+Comienza con el desarrollo del [_PROTOTIPO C2-4_](https://docs.wokwi.com/?utm_source=wokwi); El objetivo inicial fue obtener una aproximación al sistema electrónico a nivel macro en formato netamente virtual y simulado del sistema, para visualizar el funcionamiento base del circuito de componentes, y generar un boceto primario de código de programación funcional de una GUI (basada en el Firmware + Software) proximamente depurada en la inclusión del Hardware.
 El objetivo principal de este ensayo se centró en obtener la simulación virtual virtual de la posición en tiempo real de los módulos electrónicos componentes del sistema: la board [_ESP32-V1_](https://www.electronica.uy/producto/robotica/tarjetas-de-desarrollo/expressif-esp/modulo-esp32-wifi-bluetooth-30pines/) y el sensor [_MPU6050 GY-8710DOF (MPU6050 GY-52)_](https://www.electronica.uy/producto/robotica/modulos-posicion-inerciales/modulo-sensor-imu-gy-87-10dof-mpu6050-bmp180-hmc5883l/).
 
 ![](../images/PI/PI_12_WOKWI_PROT_C1_sketch1.png)
-[+info [ WOKWI ~ PROTOTIPO C2 - #2 ]]([https://](https://docs.wokwi.com/?utm_source=wokwi))
+[+info _[ WOKWI ~ PROTOTIPO C2 - #4 ]_]([https://](https://docs.wokwi.com/?utm_source=wokwi))
 
 
-![](../images/PI/PI_10_PROT_A0_ESP32CAM_IMG_1082.png)
-![](../images/PI/PI_10_PROT_A0_ESP32CAM_IMG_1082.png)
-![](../images/PI/PI_10_PROT_A0_ESP32CAM_IMG_1082.png)
-![](../images/PI/PI_10_PROT_A0_ESP32CAM_IMG_1082.png)
+![](../images/PI/PI_10_PROT_A0_ESP32CAM_IMG_1082.)
+![](../images/PI/PI_10_PROT_A0_ESP32CAM_IMG_1082.)
+![](../images/PI/PI_10_PROT_A0_ESP32CAM_IMG_1082.)
+![](../images/PI/PI_10_PROT_A0_ESP32CAM_IMG_1082.)
 
 ![](../images/PI/PI_14_GUI_PROT_A_FISICO_6c.png)
-[+info [_PROCESSING ~ PROTOTIPO C2-,4,5,6_]]([https://](https://processing.org))
+[+info [_PROCESSING ~ PROTOTIPO C2-5,6,7,8,9_]]([https://](https://processing.org))
 
 #### A2 . **ELECTRÓNICA ~ IN**
 
