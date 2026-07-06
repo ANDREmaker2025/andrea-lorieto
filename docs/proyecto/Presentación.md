@@ -6,12 +6,12 @@ hide:
 # **PFI** 01 & 02
 
 >## **PROYECTO FINAL INTEGRADOR** 
-*PRESENTACIÓN*
+>*PRESENTACIÓN*
 
 <br>
 <br>
 
-![](../images/PI/ENTREGA_PFI_ANDRE LORIETO_2026.gif) 
+![](../images/PI/ENTREGA_PFI_ANDRE_LORIETO_2026.gif) 
 
 <p></p>
 _____
