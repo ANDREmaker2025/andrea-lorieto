@@ -32,6 +32,7 @@ nav:
 
   - Proyecto Integrador:
     - 'VIVO': proyecto/'VIVO'.md
+    - Presentación: proyecto/'VIVO'.md
   - Referencias:
     - web: ref/web.md
 
