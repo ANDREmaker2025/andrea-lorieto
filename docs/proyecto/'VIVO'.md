@@ -108,11 +108,8 @@ El objetivo principal de este ensayo se centró en obtener la simulación virtua
 [+info _[ WOKWI ~ PROTOTIPO C2 - #4 ]_]([https://](https://docs.wokwi.com/?utm_source=wokwi))
 
 
-![](../images/PI/PI_10_PROT_A0_ESP32CAM_IMG_1082.)
-![](../images/PI/PI_10_PROT_A0_ESP32CAM_IMG_1082.)
-![](../images/PI/PI_10_PROT_A0_ESP32CAM_IMG_1082.)
-![](../images/PI/PI_10_PROT_A0_ESP32CAM_IMG_1082.)
-
+![](../images/PI/PI_13_PROT_AFISICO_5y6.gif)
+![](../images/PI/PI_13_PROT_AFISICO_6byc.gif)
 ![](../images/PI/PI_14_GUI_PROT_A_FISICO_6c.png)
 [+info [_PROCESSING ~ PROTOTIPO C2-5,6,7,8,9_]]([https://](https://processing.org))
 
