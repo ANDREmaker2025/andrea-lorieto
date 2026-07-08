@@ -42,7 +42,7 @@ Más allá de la infinidad de aspectos a enriquecer y aún por evolucionar del p
 
 
 ### **PROPUESTA** . PARA QUIÉN
-![](../images/MI02/MI02_FABLAB_biomatA.)
+![](../images/PI/PI_4_prop_usuario.png)
 ![](../images/PI/PI_4b_prop_usuario.png)
 
 ### **PROPUESTA** . de VALOR & NECESIDAD
