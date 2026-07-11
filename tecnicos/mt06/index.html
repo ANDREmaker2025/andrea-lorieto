@@ -763,11 +763,8 @@
 <h2 id="networking"><strong>NETWORKING</strong><a class="headerlink" href="#networking" title="Permanent link">&para;</a></h2>
 <p><em>TECNOLOGÍA Y FABRICACIÓN</em></p>
 </blockquote>
-<p><img alt="" src="../images/MT01/.png" /> 
-<img alt="" src="../images/MT01/.png" /> 
-<img alt="" src="../images/MT01/.png" /> 
-<img alt="" src="../images/MT01/.png" /> 
-<img alt="" src="../images/MT01/.png" /> </p>
+<p><br>
+<br></p>
 <hr />
 <p>Este <em><em>Módulo Técnico</em></em> 06 nos introdujo al Networking y Comunicaciones para Fabricación Digital, con el objetivo de comprender principalmente:  <strong>qué son las comunicaciones, para qué sirven y cómo funcionan</strong> a nivel conceptual-teórico, a través de ejemplos técnico-prácticos sencillos y analogías cotidianas.</p>
 <p>❝ <em>En el mundo de la tecnología y la fabricación digital,</em> <strong><em>la habilidad de que diferentes dispositivos se &ldquo;hablen&rdquo; entre sí</em></strong> <em>es fundamental. Esto es lo que llamamos comunicación o</em> <em><strong>networking</strong>.</em> ❞  <a href="[https://drive.google.com/file/d/1GAydsQ3LZKZzK2P6FtbNLVRa-y8HHwwn/view?usp=share_link"> <em>+ info ~ [Introducción a Networking ]</em></a></p>
@@ -790,14 +787,14 @@ Bajo el objetivo de consigna <strong><em>&lsquo;Comunicación entre dispositivos
 </ul>
 <p>❝ <em>Estos enlaces sirven para que el Arduino IDE pueda reconocer, descargar e instalar las herramientas necesarias (el &ldquo;core&rdquo; o núcleo) para programar placas basadas en el chip ESP32. Sin estos links, el IDE solo sabe trabajar con placas oficiales de Arduino (como el Uno o Nano).</em> ❞</p>
 <p><img alt="" src="../../images/MT06/MT6_esp32_1y2.png" />
-<img alt="" src="../images/MT01/.png" /> </p>
+<br></p>
 <p><code>2) Abrir Boards Manager &gt; Ir a: Tools → Board → Boards Manager</code></p>
 <p><img alt="" src="../../images/MT06/MT6_esp32_rutaDevice.png" />
-<img alt="" src="../images/MT01/.png" /> 
-<img alt="" src="../images/MT01.png" /></p>
+<br>
+<br></p>
 <h4 id="dinamica-1-arduino-esp32-serial-uart-sketch-1">DINÁMICA 1 . Arduino ESP32 ~ Serial UART . <em>sketch 1</em><a class="headerlink" href="#dinamica-1-arduino-esp32-serial-uart-sketch-1" title="Permanent link">&para;</a></h4>
-<p><img alt="" src="../images/MT01/.png" /> 
-<strong>OBJETIVO</strong>
+<p><br></p>
+<p><strong>OBJETIVO</strong>
 <em>Implementar una comunicación <strong>Serial UART entre dos ESP32</strong>:</em>
 - <em>ESP32 A - EMISOR (UART) : cuando el usuario aprieta un botón, envía un mensaje por UART.</em>
 - <em>ESP32 B RECEPTOR (UART) : recibe el mensaje por UART y prende/apaga un LED según el comando recibido.</em></p>
@@ -818,25 +815,23 @@ Bajo el objetivo de consigna <strong><em>&lsquo;Comunicación entre dispositivos
 <code>Receptor: https://pastebin.com/3FQbShiS</code></p>
 <p>Configuramos <a href="https://docs.arduino.cc/software/ide-v2/tutorials/ide-v2-serial-monitor/">(Serial Monitor)</a> su código de programación en correspondencia con las conexiones físicas establecidas. Si ambos, [circuito físico + código programación digital] se corresponden, el circuito se activa encendiéndose, de lo contrario, no. Una vez sincronizados y funcionales, <code>[Verify Code “✓” + Compiling Code "→"] + Upload sketch, finalmente guardamos el archivo de código programado.</code></p>
 <p><img alt="" src="../../images/MT06/MT6_E1_emi-receptor_code.png" />
-<img alt="" src="../images/MT01/.png" /> 
-<img alt="" src="../images/MT01.png" /></p>
+<br></p>
 <h4 id="dinamica-2-arduino-esp32-wifi-http-get-sketch-2">DINÁMICA 2 . Arduino ESP32 ~ WiFi + HTTP GET . <em>sketch 2</em><a class="headerlink" href="#dinamica-2-arduino-esp32-wifi-http-get-sketch-2" title="Permanent link">&para;</a></h4>
-<p><img alt="" src="../images/MT01/.png" /> 
-<strong>OBJETIVO</strong></p>
+<p><br></p>
+<p><strong>OBJETIVO</strong></p>
 <p><em><strong>Programar un microcontrolador ESP32</strong> para que:</em>
 - <em>Se conecte a una red WiFi.</em>
 - <em>Haga una petición HTTP GET a una página web simple.</em>
 - <em>Muestre en el Serial Monitor: Si se conectó correctamente + La IP asignada + El código HTTP de respuesta + Los primeros caracteres del contenido recibido</em></p>
-<p><img alt="" src="../images/MT01.png" />
-<strong>CONEXIONES . #2</strong></p>
+<p><br></p>
+<p><strong>CONEXIONES . #2</strong></p>
 <p>Armamos el circuito ESP32 #2 vinculando el microcontrolador ESP32 en conexión USB con la PC/Software al <a href="https://https://docs.arduino.cc/software/ide-v2/tutorials/ide-v2-serial-monitor/">EDITOR Arduino IDE + MonitorSerialTool</a> (integrado).</p>
-<p><img alt="" src="../images/MT06/MT6_E1_esp32B_receptor." /></p>
-<p><img alt="" src="../images/MT01.png" />
-<strong>CÓDIGO . #2</strong></p>
+<p><br></p>
+<p><strong>CÓDIGO . #2</strong></p>
 <p><code>Solución: https://wokwi.com/projects/455582534712036353</code></p>
 <p>Configuramos <a href="https://docs.arduino.cc/software/ide-v2/tutorials/ide-v2-serial-monitor/">(Serial Monitor)</a> su código de programación en correspondencia con las conexiones físicas establecidas. Si ambos, [circuito físico + código programación digital] se corresponden, el circuito se activa encendiéndose, de lo contrario, no. Una vez sincronizados y funcionales, <code>[Verify Code “✓” + Compiling Code "→"] + Upload sketch, finalmente guardamos el archivo de código programado.</code></p>
 <p><img alt="" src="../../images/MT06/MT6_E2_upload-compiling_WIFI.png" />
-<img alt="" src="../images/MT01/.png" /> </p>
+<br></p>
 <h4 id="dinamica-3-arduino-esp32-wifi-dht22-mqtt-sketch-3">DINÁMICA 3 . Arduino ESP32 ~ WiFi + DHT22 + MQTT . <em>sketch 3</em><a class="headerlink" href="#dinamica-3-arduino-esp32-wifi-dht22-mqtt-sketch-3" title="Permanent link">&para;</a></h4>
 <p><img alt="" src="../images/MT01.png" /></p>
 <p><strong>OBJETIVO</strong></p>
@@ -888,7 +883,7 @@ Utiliza un protocolo de comunicación de un solo hilo (1-Wire) para enviar los v
 <p><img alt="" src="../../images/MT06/MT6_E3_esp32_sensor_wifi%26arduino-runaction_LATU.gif" /></p>
 <p><a href="https://drive.google.com/file/d/1m4OxKNEYOo3fmS0jOPOst37lyH9-p7zr/view?usp=share_link">🎬 LINK DEMO ~ ESP32 3_ARDUINORUN ACTION - SENSORHUM_LATU_MT06</a>
 <a href="https://drive.google.com/file/d/1GHLS7MPzq7fhE-GlnlWkURz2j_WocznZ/view?usp=share_link">🎬 LINK DEMO ~ ESP32 3_SENSORHUM_LATU_MT06</a></p>
-<p><img alt="" src="../images/MT01/.png" /> </p>
+<p><br></p>
 <p>En el <a href="https://docs.arduino.cc/software/ide-v2/tutorials/ide-v2-serial-monitor/">EDITOR Arduino IDE + MonitorSerialTool</a> (integrado) software: </p>
 <p>Incluimos  <code>#include &lt;WiFi.h&gt;</code>, (indicadas al inicio del código) para importar la biblioteca oficial de conectividad Wi-Fi al software de Arduino IDE. Esta línea de código, <strong>habilita la conexión inalámbrica</strong> permite que la placa (como un ESP32, ESP8266 o un Arduino UNO R4 WiFi) se conecte a redes locales y a internet, y <strong>brinda funciones de red</strong> (dando acceso a comandos sencillos para realizar tareas complejas).</p>
 <p>Incluimos la <a href="https://docs.arduino.cc/software/ide-v1/tutorials/installing-libraries/"><em>Installing Libraries:</em></a> </p>
@@ -937,7 +932,7 @@ Utiliza un protocolo de comunicación de un solo hilo (1-Wire) para enviar los v
 <div class="md-source-date">
   <small>
     
-      Last update: <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date" title="February 18, 2026 22:06:43 UTC">February 18, 2026</span>
+      Last update: <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date" title="July 11, 2026 01:03:52 UTC">July 11, 2026</span>
     
   </small>
 </div>
