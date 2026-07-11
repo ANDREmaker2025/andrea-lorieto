@@ -3,9 +3,8 @@ hide:
     - toc
 ---
 
-# **PFI** 01 & 02
->
->## **PRE** ENTREGA
+# **PRE** ENTREGA
+
 >
 >**PROYECTO FINAL INTEGRADOR**
 >
