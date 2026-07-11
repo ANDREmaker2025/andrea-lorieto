@@ -4,10 +4,14 @@ hide:
 ---
 
 # **PFI** 01 & 02
-## **PRE**ENTREGA
-**PROYECTO FINAL INTEGRADOR**
-*PFI01 . Práctica presencial en laboratorio*
-*PFI02 . Trabajo final*
+>
+>## **PRE** ENTREGA
+>
+>**PROYECTO FINAL INTEGRADOR**
+>
+>*PFI01 . Práctica presencial en laboratorio*
+>
+>*PFI02 . Trabajo final*
 
 
 <br>
