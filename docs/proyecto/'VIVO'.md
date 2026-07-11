@@ -13,6 +13,7 @@ hide:
 _____
 
 <p></p>
+<br>
 
 Entre otros intereses e ideas potenciales de investigación identificadas/proyectadas (aunque no consolidadas de antemano), previas y durante el inicio de esta experiencia de formación, finalmente desarrollé **_‘VIVO' project_**. Este es el desarrollo preliminar de un proyecto que incuba (en diversas dimensiones) un potencial de investigación a profundizar, y una capacidad de proyección, expansión y alcance escalable a futuro, e intención de ampliarse. 
 
