@@ -14,6 +14,7 @@ hide:
 _____
 
 <p></p>
+<br>
 
 Enmarcados en el proceso de diseño del _**Proyecto Final Integrador (PFI)**_, esta etapa de avance intensiva, buscó el crecimiento y concreción de este, analizando las dimensiones claves estructurales del proceso proyectual. Ingresando en la convergencia de la fase "final” y a la vez preliminar de un proyecto con posibilidades de crecimiento futuro se configura a partir de aquí, una etapa de avance más enriquecida, asertiva y concreta del proyecto final, determinada por 4 dimensiones globales: **1) PORQUÉ [ el problema y para qué ]** +  **2) QUÉ [ La propuesta y para quíen ]** + **3) CÓMO [ La resolución técnica ]** + **4) Avances y próximo pasos** del _PFI_, desarrollándose de la siguiente forma:
 
