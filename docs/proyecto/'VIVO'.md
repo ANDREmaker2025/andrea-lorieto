@@ -51,8 +51,8 @@ Más allá de la infinidad de aspectos a enriquecer y aún por evolucionar del p
 
 
 ### **PROPUESTA** . QUÉ 
-![](../images/PI/PI_6_propuesta.png)
-![](../images/PI/PI_6b_propuesta.png)
+![](../images/PI/PI_6_propuesta.pn)
+![](../images/PI/PI_6b_propuesta.pn)
 
 <br>
 <br>
@@ -64,7 +64,7 @@ Más allá de la infinidad de aspectos a enriquecer y aún por evolucionar del p
 ### **PROPUESTA** . CÓMO ~ CRITERIOS DE DISEÑO
 
 ![](../images/PI/PI_7_prop_como_criterios.png)
-![](../images/PI/PI_7b_prop_como_criterios.png)
+![](../images/PI/PI_7b_prop_como_criterios.pn)
 
 ### **PROPUESTA**. CÓMO ~ ARQUITECTURA PROTOTIPADO
 
@@ -73,7 +73,7 @@ Una mirada del proyecto basada en los criterios/condicionantes (técnicas/concep
 
 Frente al objetivo de una **validación funcional inicial** (de fidelidad media/alta), este mapeo fue clave para identificar el potencial del proyecto, la evolución continua del prototipado, aciertos y obstáculos en la ejecución práctica, priorizar decisiones proyectadas e investigación desarrollada: ensayos exitosos vs. iteraciones fallidas, la dificultad de mercado costos vs. stock de insumos y la acotada disponibilidad logística del laboratorios y acceso a la tecnología de fabricación vs. la gran variable del tiempo real de entrega de esta etapa preliminar de proyecto.
 
-![](../images/PI/PI_8_arq_prototipo.png)
+![](../images/PI/PI_8_arq_prototipo.pn)
 
 ### **PROPUESTA** . CÓMO ~ PROTOTIPADO ~ TECNOLOGÍA FABRICACIÓN 
 
@@ -92,7 +92,7 @@ Por otra parte las piezas analógicas proyectadas en esta fase (A0), se modelaro
 
 #### A1 . **ELECTRÓNICA ~ OUT**
 ![](../images/PI/PI_10_PROT_A0_ESP32CAM_IMG_1082.png)
-![](../images/PI/PI_10_PROT_A0_ESP32CAM.gif)
+![](../images/PI/PI_10_PROT_A0_ESP32CAM.gi)
 
 #### C1 . **GUI** [~ A1]
 
@@ -106,9 +106,9 @@ En este trayecto de proceso gradual de prototipado de simulación virtual de ava
 C1: **PROTOTIPADO ‘virtual’** _INTERACCIÓN HÍBRIDA_ >  **+ VIRTUAL  &  – ANALÓGICO**
 C2: **PROTOTIPADO ‘Físico’** _INTERACCIÓN HÍBRIDA_ >  **+ ANALÓGICO &  – VIRTUAL**
 
-![](../images/PI/PI_11_PROT_A_VIRTUAL_3.gif)
-![](../images/PI/PI_11b_PROT_C1-2026-05-21.jpg)
-![](../images/PI/PI_10_GUI_artwork.gif)
+![](../images/PI/PI_11_PROT_A_VIRTUAL_3.gi)
+![](../images/PI/PI_11b_PROT_C1-2026-05-21.jp)
+![](../images/PI/PI_10_GUI_artwork.gi)
 [_+info [ PROCESSING~ PROTOTIPO C1- 0,1,2,3 ]_]([https://](https://processing.org))
 
 
@@ -117,19 +117,19 @@ C2: **PROTOTIPADO ‘Físico’** _INTERACCIÓN HÍBRIDA_ >  **+ ANALÓGICO &  �
 Comienza con el desarrollo del [_PROTOTIPO C2-4_](https://docs.wokwi.com/?utm_source=wokwi); El objetivo inicial fue obtener una aproximación al sistema electrónico a nivel macro en formato netamente virtual y simulado del sistema, para visualizar el funcionamiento base del circuito de componentes, y generar un boceto primario de código de programación funcional de una GUI (basada en el Firmware + Software) proximamente depurada en la inclusión del Hardware.
 El objetivo principal de este ensayo se centró en obtener la simulación virtual virtual de la posición en tiempo real de los módulos electrónicos componentes del sistema: la board [_ESP32-V1_](https://www.electronica.uy/producto/robotica/tarjetas-de-desarrollo/expressif-esp/modulo-esp32-wifi-bluetooth-30pines/) y el sensor [_MPU6050 GY-8710DOF (MPU6050 GY-52)_](https://www.electronica.uy/producto/robotica/modulos-posicion-inerciales/modulo-sensor-imu-gy-87-10dof-mpu6050-bmp180-hmc5883l/).
 
-![](../images/PI/PI_12_WOKWI_PROT_C1_sketch1.png)
+![](../images/PI/PI_12_WOKWI_PROT_C1_sketch1.pn)
 [+info _[ WOKWI ~ PROTOTIPO C2 - #4 ]_]([https://](https://docs.wokwi.com/?utm_source=wokwi))
 
 
-![](../images/PI/PI_13_PROT_AFISICO_5y6.gif)
-![](../images/PI/PI_13_PROT_AFISICO_6byc.gif)
-![](../images/PI/PI_14_GUI_PROT_A_FISICO_6c.png)
+![](../images/PI/PI_13_PROT_AFISICO_5y6.gi)
+![](../images/PI/PI_13_PROT_AFISICO_6byc.gi)
+![](../images/PI/PI_14_GUI_PROT_A_FISICO_6c.pn)
 [+info [_PROCESSING ~ PROTOTIPO C2-5,6,7,8,9_]]([https://](https://processing.org))
 
 #### A2 . **ELECTRÓNICA ~ IN**
 
 ![](../images/PI/PI_15_ELECT-IN.png)
-![](../images/PI/PI_16_ELECT-IN_IMG_1958.jpg)
+![](../images/PI/PI_16_ELECT-IN_IMG_1958.jp)
 
 #### B2 . **‘ CANVAS '**
 
@@ -147,7 +147,7 @@ El objetivo principal de este ensayo se centró en obtener la simulación virtua
 ![](../images/PI/PI_19_PROT_B2_IMG_1714.png)
 ![](../images/PI/PI_19_PROT_B2_IMG_1705.jpg)
 ![](../images/PI/PI_19_PROT_B2_IMG_1722.jpg)
-![](../images/PI/PI_19_PROT_B2_IMG_1722b.png)
+![](../images/PI/PI_19_PROT_B2_IMG_1722b.pn)
 ![](../images/PI/PI_19_Print3D_PROTB2_LabA.gif)
 
 🎬  [_[ Print 3D ~ PROTOTIPOS_B2 ~ LabA_Minas ]_]([https://](https://drive.google.com/file/d/1I5s5tmDQXdpu3i-Bc5vA0ijZzbRGIIgr/view?usp=share_link))
@@ -163,15 +163,15 @@ Estaba ante un desafío exigente generar una superficie flexible de gran escala 
 
 #### B1 . **‘ BALL '**
 
-![](../images/PI/PI_17g_esfera.png) 
-![](../images/PI/PI_19_2026-06-11.png) 
+![](../images/PI/PI_17g_esfera.pn) 
+![](../images/PI/PI_19_2026-06-11.pn) 
 ![](../images/PI/PI_19_Print3D_PROTB1_LabA_Minas.png) 
 ![](../images/PI/PI_19_Print3D_PROTB1_LabA_Minas.gif) 
 🎬  [_[ Print 3D ~ PROTOTIPO_B1 ~ LabA_Minas ]_]([https://](https://drive.google.com/file/d/1dtroMwpdZbvULd4XwqD87ZjZKZnUexRk/view?usp=share_link))
 
 ### **PROPUESTA** . CÓMO ~ EXPERIENCIA USO [ interfaz UX-GUI ] 
 ![](../images/PI/PI_20_prop_UX-UI2.png) 
-![](../images/PI/PI_8_prop_UX-UI.png) 
+![](../images/PI/PI_8_prop_UX-UI.pn) 
 
 ### **PROPUESTA** . PRÓXIMOS PASOS ~  ALCANCE DISEÑO MULTIESCALAR  [ contextos de intervención ]
 ![](../images/PI/PI_21_prop_UX-UI2.png) 

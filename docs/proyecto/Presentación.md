@@ -11,7 +11,7 @@ hide:
 <br>
 <br>
 
-![](../images/PI/ENTREGA_PFI_ANDRE_LORIETO_2026.gif) 
+![](../images/PI/ENTREGA_PFI_ANDRE_LORIETO_2026.gi) 
 
 <p></p>
 _____

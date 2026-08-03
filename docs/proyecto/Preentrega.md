@@ -35,12 +35,12 @@ Enmarcados en el proceso de diseño del _**Proyecto Final Integrador (PFI)**_, e
 <br>
 
 ### **LA PROPUESTA** . QUÉ & PARA QUIÉN
-![](../images/PRE/PFI_preentrega2.png)
+![](../images/PRE/PFI_preentrega2.pn)
 
 <br>
 
 ### **LA RESOLUCIÓN TÉCNICA** . CÓMO
-![](../images/PRE/PFI_preentrega3.png)
+![](../images/PRE/PFI_preentrega3.pn)
 ![](../images/PRE/PFI_preentrega3b.png)
 
 <br>
